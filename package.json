@@ -1,0 +1,23 @@
+{
+  "name": "case-support-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apex IP & Tech Law Group — Full-Stack USPTO Docketing & Legal Operations Monorepo",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "vitest run",
+    "prepare": "husky",
+    "db:generate": "pnpm --filter @case-support/database db:generate",
+    "db:push": "pnpm --filter @case-support/database db:push",
+    "db:seed": "pnpm --filter @case-support/database db:seed"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2",
+    "vitest": "^5.1.1"
+  },
+  "packageManager": "pnpm@12.11.2"
+}

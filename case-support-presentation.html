@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaseSupport Hub — Apresentação Visual Executiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F4F7F4;
+      --card-bg: #FFFFFF;
+      --forest-900: #0B2314;
+      --forest-800: #12341E;
+      --forest-700: #194C2B;
+      --forest-600: #236B3D;
+      --emerald-500: #10B981;
+      --emerald-400: #34D399;
+      --emerald-100: #D1FAE5;
+      --emerald-50: #ECFDF5;
+      --ink: #0F172A;
+      --ink-muted: #64748B;
+      --border: rgba(18, 52, 30, 0.12);
+      --border-accent: rgba(16, 185, 129, 0.3);
+      --shadow-sm: 0 2px 8px rgba(11, 35, 20, 0.04);
+      --shadow-md: 0 12px 28px -6px rgba(11, 35, 20, 0.07);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: var(--ink);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 120px;
+    }
+
+    /* Fixed Top Navigation Bar */
+    .top-nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(244, 247, 244, 0.88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 40px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .brand {
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none; color: inherit;
+    }
+    .brand-logo {
+      width: 36px; height: 36px; background: var(--forest-800);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      color: var(--emerald-400); font-weight: 800; font-size: 18px;
+    }
+    .brand-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px; font-weight: 700; color: var(--forest-900);
+      letter-spacing: -0.02em;
+    }
+    .brand-tag {
+      font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      background: var(--emerald-100); color: var(--forest-800);
+      padding: 3px 8px; border-radius: 9999px; font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex; gap: 8px; align-items: center;
+    }
+    .nav-link {
+      font-size: 13px; font-weight: 600; color: var(--ink-muted);
+      padding: 6px 14px; border-radius: 8px; text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .nav-link:hover {
+      color: var(--forest-900); background: rgba(18, 52, 30, 0.05);
+    }
+
+    /* Presentation Container */
+    .container {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+    }
+
+    /* Story Section (Vertical Slide) */
+    .story-section {
+      padding: 80px 0;
+      border-bottom: 1px solid rgba(18, 52, 30, 0.08);
+      position: relative;
+    }
+    .story-section:last-of-type { border-bottom: none; }
+
+    .section-eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--forest-700);
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-bottom: 12px;
+    }
+    .section-eyebrow::before {
+      content: ''; width: 8px; height: 8px; border-radius: 50%;
+      background: var(--emerald-500);
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 40px; font-weight: 700; line-height: 1.15;
+      letter-spacing: -0.03em; color: var(--forest-900);
+      margin-bottom: 10px;
+    }
+    .section-desc {
+      font-size: 18px; color: var(--ink-muted); max-width: 760px;
+      margin-bottom: 40px;
+    }
+
+    /* Visual Graphic Elements */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 18px; padding: 28px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+
+    /* Pipeline / Flow Graphic */
+    .pipeline-container {
+      display: flex; align-items: stretch; gap: 16px; position: relative;
+    }
+    .pipeline-step {
+      flex: 1; background: #fff; border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px; position: relative;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .pipeline-step.active-step {
+      border-color: var(--emerald-500);
+      background: linear-gradient(180deg, #FFFFFF 0%, #F0FDF4 100%);
+    }
+    .step-num {
+      font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700;
+      color: var(--emerald-500); margin-bottom: 8px;
+    }
+    .step-title {
+      font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700;
+      color: var(--forest-900); margin-bottom: 8px;
+    }
+
+    /* Diagram Arrow */
+    .flow-arrow {
+      display: flex; align-items: center; justify-content: center;
+      color: var(--forest-600); font-size: 20px; font-weight: 700;
+    }
+
+    /* Interactive Comparison (Before vs After) */
+    .metric-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 32px; font-weight: 800; color: var(--forest-800);
+      line-height: 1; margin-bottom: 6px;
+    }
+
+    /* Interactive Box Demo (Splitter) */
+    .char-box {
+      font-family: 'JetBrains Mono', monospace; font-size: 13px;
+      background: #0F172A; color: #F8FAFC;
+      padding: 12px 16px; border-radius: 8px;
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 8px;
+    }
+    .char-count {
+      color: var(--emerald-400); font-size: 11px; font-weight: 600;
+      background: rgba(16, 185, 129, 0.15); padding: 3px 8px; border-radius: 4px;
+    }
+
+    /* Hero Banner */
+    .hero {
+      padding: 100px 0 70px; text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #fff; border: 1px solid var(--border);
+      padding: 6px 16px; border-radius: 9999px;
+      font-size: 13px; font-weight: 600; color: var(--forest-800);
+      margin-bottom: 24px; box-shadow: var(--shadow-sm);
+    }
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 64px; font-weight: 800; line-height: 1.08;
+      letter-spacing: -0.04em; color: var(--forest-900);
+      margin-bottom: 20px;
+    }
+    .hero-subtitle {
+      font-size: 22px; color: var(--ink-muted); max-width: 800px;
+      margin: 0 auto 36px;
+    }
+    .hero-stats {
+      display: flex; justify-content: center; gap: 48px; margin-top: 40px;
+    }
+
+    /* Floating Quick Nav Pills */
+    .floating-nav {
+      position: fixed; bottom: 24px; right: 28px; z-index: 1000;
+      background: var(--forest-900); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 9999px; padding: 6px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      display: flex; gap: 6px;
+    }
+    .floating-nav button {
+      background: transparent; border: none; color: #fff;
+      padding: 8px 14px; border-radius: 9999px; font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .floating-nav button:hover { background: rgba(255,255,255,0.15); }
+  </style>
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="top-nav">
+    <a href="#" class="brand">
+      <div class="brand-logo">4</div>
+      <div>
+        <span class="brand-name">Apex IP</span>
+        <span class="brand-tag">Hub Operacional</span>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="#pilares" class="nav-link">01. Ecossistema</a>
+      <a href="#fluxograma" class="nav-link">02. Fluxograma</a>
+      <a href="#splitter" class="nav-link">03. Formatador 41</a>
+      <a href="#calculadora" class="nav-link">04. SLA &amp; Horas</a>
+      <a href="#politicas" class="nav-link">05. Políticas</a>
+      <a href="#links" class="nav-link">06. Links &amp; Jornais</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-badge">
+        <span style="width: 8px; height: 8px; background: var(--emerald-500); border-radius: 50%;"></span>
+        Apresentação Visual da Plataforma
+      </div>
+      <h1 class="hero-title">
+        Operação sem Gargalos.<br>Compliance Jurídico em 100%.
+      </h1>
+      <p class="hero-subtitle">
+        Uma visão gráfica e direta sobre como o CaseSupport Hub simplifica a esteira de casos PERM, elimina cortes no FLAG DOL e garante prazos assertivos.
+      </p>
+
+      <div class="hero-stats">
+        <div>
+          <div class="metric-badge">4 Fases</div>
+          <div style="font-size: 14px; color: var(--ink-muted); font-weight: 600;">Fluxograma Padrão SOP</div>
+        </div>
+        <div style="width: 1px; background: var(--border);"></div>
+        <div>
+          <div class="metric-badge">41 Chars</div>
+          <div style="font-size: 14px; color: var(--ink-muted); font-weight: 600;">Text Splitter com Hífen (-)</div>
+        </div>
+        <div style="width: 1px; background: var(--border);"></div>
+        <div>
+          <div class="metric-badge">40+ SLAs</div>
+          <div style="font-size: 14px; color: var(--ink-muted); font-weight: 600;">Calculadora de Formulários</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01. O ECOSSISTEMA EM 4 PILARES -->
+    <section class="story-section" id="pilares">
+      <div class="section-eyebrow">Arquitetura Modular</div>
+      <h2 class="section-title">Os 4 Pilares da Plataforma</h2>
+      <p class="section-desc">Estrutura desenhada para conectar a base de conhecimento às ferramentas práticas do dia a dia.</p>
+
+      <div class="grid-4">
+        <div class="card" style="border-top: 4px solid var(--forest-700);">
+          <div style="font-size: 32px; margin-bottom: 12px;">📊</div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 8px;">01. Fluxograma</h3>
+          <p style="font-size: 14px; color: var(--ink-muted);">Checklist sequencial de DOL, USCIS e NVC com papéis e aprovações claras.</p>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--forest-600);">
+          <div style="font-size: 32px; margin-bottom: 12px;">📚</div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 8px;">02. Central Learn</h3>
+          <p style="font-size: 14px; color: var(--ink-muted);">Dossiê de formulários (ETA-9089, I-140) e protocolos para RFE e NOID.</p>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--emerald-500); background: #F0FDF4;">
+          <div style="font-size: 32px; margin-bottom: 12px;">⚡</div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 8px;">03. Utilitários</h3>
+          <p style="font-size: 14px; color: var(--ink-muted);">Text Splitter (41 chars), calculadora de horas e manuais operacionais.</p>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #0284C7;">
+          <div style="font-size: 32px; margin-bottom: 12px;">🌐</div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 8px;">04. Links &amp; Jornais</h3>
+          <p style="font-size: 14px; color: var(--ink-muted);">Acesso direto a portais federais e mapeamento de jornais de maior circulação.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. FLUXOGRAMA SOP -->
+    <section class="story-section" id="fluxograma">
+      <div class="section-eyebrow">Pilar 01 • Processo Legal</div>
+      <h2 class="section-title">Fluxo Linear do Processo PERM</h2>
+      <p class="section-desc">Do requerimento salarial à concessão do Green Card sem etapas perdidas.</p>
+
+      <div class="pipeline-container">
+        <div class="pipeline-step">
+          <div>
+            <div class="step-num">FASE A • DOL PERM</div>
+            <div class="step-title">Prevailing Wage &amp; Recrutamento</div>
+            <div style="font-size: 14px; color: var(--ink-muted); margin-top: 8px;">
+              • ETA-9141 Salário DOL<br>
+              • 2 Anúncios Dominicais<br>
+              • Cooldown de 30 dias<br>
+              • Envio ETA-9089 no FLAG
+            </div>
+          </div>
+          <div style="margin-top: 16px; font-size: 12px; font-weight: 700; color: var(--forest-700); background: var(--emerald-100); padding: 4px 8px; border-radius: 6px; text-align: center;">
+            Case Support
+          </div>
+        </div>
+
+        <div class="flow-arrow">➔</div>
+
+        <div class="pipeline-step active-step">
+          <div>
+            <div class="step-num">FASE B • USCIS</div>
+            <div class="step-title">Petição de Imigrante I-140</div>
+            <div style="font-size: 14px; color: var(--ink-muted); margin-top: 8px;">
+              • Ability to Pay (ATP)<br>
+              • Validação de Diplomas<br>
+              • Final Package Checklist<br>
+              • Protocolo e Tracking
+            </div>
+          </div>
+          <div style="margin-top: 16px; font-size: 12px; font-weight: 700; color: #fff; background: var(--forest-800); padding: 4px 8px; border-radius: 6px; text-align: center;">
+            Aprovação do Advogado
+          </div>
+        </div>
+
+        <div class="flow-arrow">➔</div>
+
+        <div class="pipeline-step">
+          <div>
+            <div class="step-num">FASE C • GREEN CARD</div>
+            <div class="step-title">Ajuste de Status (AOS)</div>
+            <div style="font-size: 14px; color: var(--ink-muted); margin-top: 8px;">
+              • Pacote I-485 / I-765<br>
+              • Biometria &amp; Exame I-693<br>
+              • Resposta de Auditorias<br>
+              • Emissão do Cartão
+            </div>
+          </div>
+          <div style="margin-top: 16px; font-size: 12px; font-weight: 700; color: #0369A1; background: #E0F2FE; padding: 4px 8px; border-radius: 6px; text-align: center;">
+            Finalização do Caso
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. FORMATADOR 41 CHARS -->
+    <section class="story-section" id="splitter">
+      <div class="section-eyebrow">Pilar 03 • Utilitário Crítico</div>
+      <h2 class="section-title">Formatador de Caixas (Text Splitter)</h2>
+      <p class="section-desc">O portal FLAG DOL corta textos em 41 caracteres por linha sem avisar. O utilitário resolve isso automaticamente.</p>
+
+      <div class="grid-2" style="align-items: center;">
+        <div>
+          <div class="card" style="border-left: 4px solid #EF4444; margin-bottom: 16px; padding: 20px;">
+            <div style="font-size: 13px; font-weight: 700; color: #DC2626; margin-bottom: 4px;">SEM O FORMATADOR (ERRO GRAVE)</div>
+            <p style="font-size: 14px; color: #7F1D1D; font-family: 'JetBrains Mono', monospace;">
+              "Supervisionar a equipe de engenharia e..." ➔ <span style="text-decoration: line-through;">CORTADO NO ENVIO</span>
+            </p>
+          </div>
+
+          <div class="card" style="border-left: 4px solid var(--emerald-500); padding: 20px;">
+            <div style="font-size: 13px; font-weight: 700; color: var(--forest-700); margin-bottom: 4px;">COM O FORMATADOR (APROVADO)</div>
+            <p style="font-size: 14px; color: var(--forest-800);">
+              Quebra inteligente com hífen (-) de continuidade e blocos prontos para cópia com um único clique.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="background: #0F172A; color: #fff; padding: 24px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #94A3B8;">SIMULAÇÃO EM TEMPO REAL</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; background: rgba(16,185,129,0.2); color: var(--emerald-400); padding: 2px 8px; border-radius: 4px;">Auto-Hyphen</span>
+          </div>
+
+          <div class="char-box">
+            <span>Supervisionar a equipe de engenharia e de-</span>
+            <span class="char-count">41 / 41</span>
+          </div>
+          <div class="char-box">
+            <span>-senvolvimento no planejamento de sistemas.</span>
+            <span class="char-count">41 / 41</span>
+          </div>
+
+          <div style="margin-top: 14px; text-align: right;">
+            <span style="font-size: 12px; color: #94A3B8; font-family: 'JetBrains Mono', monospace;">✓ 100% compatível com a Seção H do ETA-9089</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. CALCULADORA DE SLA -->
+    <section class="story-section" id="calculadora">
+      <div class="section-eyebrow">Pilar 03 • Planejamento &amp; Capacidade</div>
+      <h2 class="section-title">Calculadora de Horas &amp; SLA</h2>
+      <p class="section-desc">Chega de estimativas no escuro. Cálculo exato por formulário e por beneficiário para blindar o calendário da equipe.</p>
+
+      <div class="grid-3">
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--forest-800); margin-bottom: 4px;">2.0h</div>
+          <div style="font-weight: 700; color: var(--forest-900); font-size: 16px;">Form I-140</div>
+          <div style="font-size: 13px; color: var(--ink-muted); margin-top: 4px;">Por beneficiário</div>
+        </div>
+
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--forest-800); margin-bottom: 4px;">1.5h</div>
+          <div style="font-weight: 700; color: var(--forest-900); font-size: 16px;">ETA-9089 Completo</div>
+          <div style="font-size: 13px; color: var(--ink-muted); margin-top: 4px;">Histórico laboral extenso</div>
+        </div>
+
+        <div class="card" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--forest-800); margin-bottom: 4px;">1.0h</div>
+          <div style="font-weight: 700; color: var(--forest-900); font-size: 16px;">Tradução de Certidão</div>
+          <div style="font-size: 13px; color: var(--ink-muted); margin-top: 4px;">Nascimento / Casamento</div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 24px; background: linear-gradient(180deg, #FFFFFF 0%, #F0FDF4 100%); display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <strong style="font-size: 16px; color: var(--forest-900);">Calculadora Dinâmica com Carrinho de Horas</strong>
+          <p style="font-size: 14px; color: var(--ink-muted); margin-top: 2px;">Adicione itens na esteira para somar o SLA total do pacote e evitar sobreposições de agenda.</p>
+        </div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; color: var(--forest-800); background: #fff; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border);">
+          40+ Itens Tabelados
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. POLÍTICAS OPERACIONAIS -->
+    <section class="story-section" id="politicas">
+      <div class="section-eyebrow">Pilar 03 • Compliance Institucional</div>
+      <h2 class="section-title">Políticas Padronizadas (SOPs)</h2>
+      <p class="section-desc">Regulamentos corporativos que protegem a equipe e garantem auditoria transparente.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: var(--forest-700); background: var(--emerald-100); padding: 3px 8px; border-radius: 4px;">SOP-COMM-01</span>
+            <span style="font-size: 12px; color: var(--ink-muted);">Comunicação</span>
+          </div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 12px;">Atendimento ao Cliente</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--ink-muted);">
+            <li><strong style="color: var(--forest-800);">1. Prioridade Ring Central:</strong> Até 3 tentativas telefônicas com registro.</li>
+            <li><strong style="color: var(--forest-800);">2. MyCase Oficial:</strong> Portal seguro para mensagens e e-mails auditáveis.</li>
+            <li><strong style="color: #DC2626;">3. Proibição de WhatsApp:</strong> Canais informais ferem a segurança corporativa.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #92400E; background: #FEF3C7; padding: 3px 8px; border-radius: 4px;">SOP FIN-005</span>
+            <span style="font-size: 12px; color: var(--ink-muted);">Financeiro</span>
+          </div>
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 12px;">Encerramento por Inatividade</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--ink-muted);">
+            <li><strong style="color: var(--forest-800);">1. Janela de 6 Meses:</strong> No mínimo 1 contato documentado por mês.</li>
+            <li><strong style="color: var(--forest-800);">2. Dossiê de Evidências:</strong> Extrato de chamadas + log do MyCase.</li>
+            <li><strong style="color: var(--forest-800);">3. Withdrawal Letter:</strong> Notificação formal emitida pelo Financeiro.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. LINKS OFICIAIS & PERIÓDICOS -->
+    <section class="story-section" id="links">
+      <div class="section-eyebrow">Pilar 04 • Inteligência de Dados</div>
+      <h2 class="section-title">Links Governamentais &amp; Jornais</h2>
+      <p class="section-desc">Acesso rápido aos portais regulatórios e fundamentação legal de jornais de maior circulação.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 14px;">Portais Críticos em 1 Clique</h3>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px;">
+            <div style="display: flex; justify-content: space-between; padding: 8px 12px; background: var(--bg); border-radius: 6px;">
+              <strong>FLAG DOL (PERM &amp; PW)</strong>
+              <span style="color: var(--forest-700); font-family: 'JetBrains Mono', monospace;">flag.dol.gov</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 8px 12px; background: var(--bg); border-radius: 6px;">
+              <strong>USCIS Forms &amp; Status</strong>
+              <span style="color: var(--forest-700); font-family: 'JetBrains Mono', monospace;">uscis.gov</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 8px 12px; background: var(--bg); border-radius: 6px;">
+              <strong>O*NET OnLine (SOC Codes)</strong>
+              <span style="color: var(--forest-700); font-family: 'JetBrains Mono', monospace;">onetonline.org</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="background: #F0FDF4; border-color: rgba(16,185,129,0.3);">
+          <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; color: var(--forest-900); margin-bottom: 8px;">Regra Censitária para Jornais</h3>
+          <p style="font-size: 14px; color: var(--ink-muted); margin-bottom: 12px;">
+            O anúncio de 2 domingos deve respeitar a classificação do Census Bureau:
+          </p>
+          <div style="font-size: 13px; color: var(--forest-800); display: flex; flex-direction: column; gap: 6px;">
+            <div>• <strong>Área Metropolitana (MSA):</strong> Principal diário regional.</div>
+            <div>• <strong>Área Micropolitana (μSA):</strong> Periódico de circulação no condado.</div>
+            <div>• <strong>Exceção Rural:</strong> Semanário de maior tiragem local.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCLUSÃO -->
+    <section class="story-section" style="text-align: center; padding: 80px 0 40px;">
+      <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 800; color: var(--forest-900); margin-bottom: 12px;">
+        Pronto para usar na sua rotina?
+      </h2>
+      <p style="font-size: 18px; color: var(--ink-muted); max-width: 600px; margin: 0 auto 28px;">
+        Mantenha o Hub fixado no seu navegador e consulte os checklists antes de protocolar qualquer petição.
+      </p>
+      <div style="display: inline-flex; align-items: center; gap: 10px; background: var(--forest-800); color: #fff; padding: 12px 28px; border-radius: 9999px; font-weight: 700; font-size: 15px;">
+        <span>Apex IP &amp; Tech Law Group</span> • <span>Operações &amp; Legal</span>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FLOATING QUICK JUMP -->
+  <div class="floating-nav">
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ Topo</button>
+    <button onclick="document.getElementById('fluxograma').scrollIntoView({behavior: 'smooth'})">Fluxo</button>
+    <button onclick="document.getElementById('splitter').scrollIntoView({behavior: 'smooth'})">41 Chars</button>
+    <button onclick="document.getElementById('calculadora').scrollIntoView({behavior: 'smooth'})">SLA</button>
+  </div>
+
+</body>
+</html>

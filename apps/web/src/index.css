@@ -1,0 +1,352 @@
+@import './tokens.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Notion Typography: Heavy weights + tight negative tracking */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  color: var(--text-primary);
+  text-wrap: balance;
+}
+
+h1 { font-size: 2.5rem; line-height: 1.1; letter-spacing: -1px; }
+h2 { font-size: 1.625rem; line-height: 1.23; letter-spacing: -0.625px; }
+h3 { font-size: 1.375rem; line-height: 1.27; letter-spacing: -0.25px; }
+h4 { font-size: 1.25rem; line-height: 1.4; letter-spacing: -0.125px; }
+
+/* Notion Cards */
+.swiss-card, .notion-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-level-0);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.swiss-card:hover, .notion-card:hover {
+  border-color: var(--border-contrast);
+  box-shadow: var(--shadow-level-1);
+}
+
+.notion-card-elevated {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-level-1);
+}
+
+/* Notion Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  padding: 0.5rem 1.25rem;
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-active, #005bab);
+}
+
+.btn-secondary {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  border-color: var(--border);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-level-1);
+  padding: 0.5rem 1.25rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-subtle);
+  border-color: var(--border-contrast);
+}
+
+.btn-utility {
+  background-color: var(--bg-surface);
+  color: var(--text-secondary);
+  border-color: var(--border);
+  border-radius: var(--radius-md);
+  padding: 4px 14px;
+  font-size: 0.8125rem;
+}
+
+.btn-utility:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-primary);
+  border-color: var(--border-contrast);
+}
+
+.btn-outline-accent {
+  background-color: var(--accent-ghost);
+  color: var(--accent-text);
+  border-color: var(--accent-subtle);
+  border-radius: var(--radius-full);
+  padding: 0.4rem 1rem;
+}
+
+.btn-outline-accent:hover {
+  background-color: var(--accent-subtle);
+}
+
+/* Notion Badges & Eyebrows */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-full);
+  font-variant-numeric: tabular-nums;
+  border: 1px solid var(--border);
+}
+
+.badge-neutral {
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+}
+
+.badge-accent {
+  background: var(--accent-ghost);
+  color: var(--accent-text);
+  border-color: var(--accent-subtle);
+}
+
+.badge-outline {
+  background: transparent;
+  color: var(--text-tertiary);
+  border-color: var(--border);
+}
+
+/* Notion Navigation Tabs */
+.nav-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.85rem;
+  font-family: var(--font-primary);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nav-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-subtle);
+}
+
+.nav-tab.active {
+  color: var(--accent);
+  background: var(--accent-ghost);
+  border-color: var(--accent-subtle);
+  font-weight: 600;
+}
+
+/* Notion Hairline Progress Bar */
+.progress-bar-container {
+  width: 100%;
+  height: 4px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--radius-full);
+  transition: width 0.3s ease;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.hairline {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* Notion Form Fields */
+input, select, textarea {
+  font-family: var(--font-primary);
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--border);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+select {
+  cursor: pointer;
+  background-color: var(--bg-select, var(--bg-surface));
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] select {
+  color-scheme: dark;
+  background-color: var(--bg-select, #383838);
+  border-color: var(--border-contrast);
+  color: #ffffff;
+}
+
+select option {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+}
+
+:root[data-theme="dark"] select option {
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] select option:checked {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-subtle);
+}
+
+/* Notion Micro-Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-contrast);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-ghost);
+}
+
+/* Recruiter Attention: Color-Breathing Button (Emerald/Teal Glow) */
+@keyframes breathe-emerald-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4), 0 2px 6px rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.6);
+    background-color: rgba(16, 185, 129, 0.12);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 16px 3px rgba(16, 185, 129, 0.55), 0 4px 14px rgba(16, 185, 129, 0.35);
+    border-color: rgba(16, 185, 129, 0.95);
+    background-color: rgba(16, 185, 129, 0.24);
+    transform: scale(1.025);
+  }
+}
+
+.btn-breathe-emerald {
+  animation: breathe-emerald-glow 2.5s infinite ease-in-out;
+  color: #059669;
+  border: 1px solid rgba(16, 185, 129, 0.65);
+  background-color: rgba(16, 185, 129, 0.12);
+  transition: all 0.2s ease;
+}
+
+:root[data-theme="dark"] .btn-breathe-emerald {
+  color: #34d399;
+}
+
+.btn-breathe-emerald:hover {
+  animation-duration: 1.5s;
+  background-color: rgba(16, 185, 129, 0.3);
+  border-color: #10b981;
+  color: #047857;
+}
+
+:root[data-theme="dark"] .btn-breathe-emerald:hover {
+  color: #6ee7b7;
+}
+
+/* Recruiter Floating Terminal Pop-Up & Cursor Animations */
+@keyframes terminal-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(18px);
+    box-shadow: 0 0 0 rgba(56, 189, 248, 0);
+  }
+  65% {
+    transform: scale(1.015) translateY(-2px);
+    box-shadow: 0 0 28px rgba(56, 189, 248, 0.35);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.85), 0 0 24px rgba(56, 189, 248, 0.15);
+  }
+}
+
+.animate-terminal-pop {
+  animation: terminal-pop 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes cursor-blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  background-color: #38bdf8;
+  margin-left: 3px;
+  vertical-align: middle;
+  animation: cursor-blink 1s infinite;
+}
+
+

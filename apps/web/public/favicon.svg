@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  <rect width="61" height="61" x="1.5" y="1.5" rx="14.5" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+  
+  <!-- Stylized Geometric A (Apex IP) -->
+  <path d="M32 13 L16 49 L23.5 49 L27.5 39 L36.5 39 L40.5 49 L48 49 Z M32 23 L35 32 L29 32 Z" fill="#ffffff" />
+  <line x1="25" y1="36" x2="39" y2="36" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Emerald Status Dot -->
+  <circle cx="49" cy="15" r="4.5" fill="#10b981" />
+  <circle cx="49" cy="15" r="6" fill="none" stroke="rgba(16, 185, 129, 0.45)" stroke-width="1.5" />
+</svg>

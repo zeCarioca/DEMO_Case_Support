@@ -1,0 +1,4727 @@
+{
+  "10100": {
+    "name": "Aberdeen, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10140": {
+    "name": "Aberdeen, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10180": {
+    "name": "Abilene, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10220": {
+    "name": "Ada, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10260": {
+    "name": "Adjuntas, PR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10300": {
+    "name": "Adrian, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10380": {
+    "name": "Aguadilla-Isabela, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10420": {
+    "name": "Akron, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10460": {
+    "name": "Alamogordo, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10500": {
+    "name": "Albany, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10540": {
+    "name": "Albany, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10580": {
+    "name": "Albany-Schenectady-Troy, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10620": {
+    "name": "Albemarle, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10660": {
+    "name": "Albert Lea, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10700": {
+    "name": "Albertville, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10740": {
+    "name": "Albuquerque, NM",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10760": {
+    "name": "Alexander City, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10780": {
+    "name": "Alexandria, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10820": {
+    "name": "Alexandria, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10860": {
+    "name": "Alice, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10900": {
+    "name": "Allentown-Bethlehem-Easton, PA-NJ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "10940": {
+    "name": "Alma, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "10980": {
+    "name": "Alpena, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11020": {
+    "name": "Altoona, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11060": {
+    "name": "Altus, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11100": {
+    "name": "Amarillo, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11140": {
+    "name": "Americus, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11180": {
+    "name": "Ames, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11220": {
+    "name": "Amsterdam, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11260": {
+    "name": "Anchorage, AK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11380": {
+    "name": "Andrews, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11420": {
+    "name": "Angola, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11460": {
+    "name": "Ann Arbor, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11500": {
+    "name": "Anniston-Oxford-Jacksonville, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11540": {
+    "name": "Appleton, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11580": {
+    "name": "Arcadia, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11620": {
+    "name": "Ardmore, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11640": {
+    "name": "Arecibo, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11660": {
+    "name": "Arkadelphia, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11680": {
+    "name": "Arkansas City-Winfield, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11700": {
+    "name": "Asheville, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "11740": {
+    "name": "Ashland, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11780": {
+    "name": "Ashtabula, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11820": {
+    "name": "Astoria, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11860": {
+    "name": "Atchison, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11900": {
+    "name": "Athens, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11940": {
+    "name": "Athens, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "11980": {
+    "name": "Athens, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12020": {
+    "name": "Athens-Clarke County, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12060": {
+    "name": "Atlanta-Sandy Springs-Roswell, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12100": {
+    "name": "Atlantic City-Hammonton, NJ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12120": {
+    "name": "Atmore, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12140": {
+    "name": "Auburn, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12180": {
+    "name": "Auburn, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12220": {
+    "name": "Auburn-Opelika, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12260": {
+    "name": "Augusta-Richmond County, GA-SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12300": {
+    "name": "Augusta-Waterville, ME",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12380": {
+    "name": "Austin, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12420": {
+    "name": "Austin-Round Rock, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12460": {
+    "name": "Bainbridge, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12540": {
+    "name": "Bakersfield, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12580": {
+    "name": "Baltimore-Columbia-Towson, MD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12620": {
+    "name": "Bangor, ME",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12660": {
+    "name": "Baraboo, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12680": {
+    "name": "Bardstown, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12700": {
+    "name": "Barnstable Town, MA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12740": {
+    "name": "Barre, VT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12780": {
+    "name": "Bartlesville, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12820": {
+    "name": "Bastrop, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12860": {
+    "name": "Batavia, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12900": {
+    "name": "Batesville, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "12940": {
+    "name": "Baton Rouge, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "12980": {
+    "name": "Battle Creek, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13020": {
+    "name": "Bay City, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13060": {
+    "name": "Bay City, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13100": {
+    "name": "Beatrice, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13140": {
+    "name": "Beaumont-Port Arthur, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13180": {
+    "name": "Beaver Dam, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13220": {
+    "name": "Beckley, WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13260": {
+    "name": "Bedford, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13300": {
+    "name": "Beeville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13340": {
+    "name": "Bellefontaine, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13380": {
+    "name": "Bellingham, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13420": {
+    "name": "Bemidji, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13460": {
+    "name": "Bend-Redmond, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13500": {
+    "name": "Bennettsville, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13540": {
+    "name": "Bennington, VT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13620": {
+    "name": "Berlin, NH-VT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13660": {
+    "name": "Big Rapids, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13700": {
+    "name": "Big Spring, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13720": {
+    "name": "Big Stone Gap, VA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13740": {
+    "name": "Billings, MT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13780": {
+    "name": "Binghamton, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13820": {
+    "name": "Birmingham-Hoover, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13900": {
+    "name": "Bismarck, ND",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "13940": {
+    "name": "Blackfoot, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "13980": {
+    "name": "Blacksburg-Christiansburg-Radford, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14010": {
+    "name": "Bloomington, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14020": {
+    "name": "Bloomington, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14100": {
+    "name": "Bloomsburg-Berwick, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14140": {
+    "name": "Bluefield, WV-VA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14180": {
+    "name": "Blytheville, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14220": {
+    "name": "Bogalusa, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14260": {
+    "name": "Boise City, ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14300": {
+    "name": "Bonham, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14340": {
+    "name": "Boone, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14380": {
+    "name": "Boone, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14420": {
+    "name": "Borger, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14460": {
+    "name": "Boston-Cambridge-Newton, MA-NH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14500": {
+    "name": "Boulder, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14540": {
+    "name": "Bowling Green, KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14580": {
+    "name": "Bozeman, MT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14620": {
+    "name": "Bradford, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14660": {
+    "name": "Brainerd, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14700": {
+    "name": "Branson, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14720": {
+    "name": "Breckenridge, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14740": {
+    "name": "Bremerton-Silverdale, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "14780": {
+    "name": "Brenham, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14820": {
+    "name": "Brevard, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "14860": {
+    "name": "Bridgeport-Stamford-Norwalk, CT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15020": {
+    "name": "Brookhaven, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15060": {
+    "name": "Brookings, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15100": {
+    "name": "Brookings, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15140": {
+    "name": "Brownsville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15180": {
+    "name": "Brownsville-Harlingen, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15220": {
+    "name": "Brownwood, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15260": {
+    "name": "Brunswick, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15340": {
+    "name": "Bucyrus, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15380": {
+    "name": "Buffalo-Cheektowaga-Niagara Falls, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15420": {
+    "name": "Burley, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15460": {
+    "name": "Burlington, IA-IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15500": {
+    "name": "Burlington, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15540": {
+    "name": "Burlington-South Burlington, VT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15580": {
+    "name": "Butte-Silver Bow, MT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15620": {
+    "name": "Cadillac, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15660": {
+    "name": "Calhoun, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15680": {
+    "name": "California-Lexington Park, MD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15700": {
+    "name": "Cambridge, MD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15740": {
+    "name": "Cambridge, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15780": {
+    "name": "Camden, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15820": {
+    "name": "Campbellsville, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15860": {
+    "name": "Cañon City, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15900": {
+    "name": "Canton, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "15940": {
+    "name": "Canton-Massillon, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "15980": {
+    "name": "Cape Coral-Fort Myers, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16020": {
+    "name": "Cape Girardeau, MO-IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16060": {
+    "name": "Carbondale-Marion, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16100": {
+    "name": "Carlsbad-Artesia, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16140": {
+    "name": "Carroll, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16180": {
+    "name": "Carson City, NV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16220": {
+    "name": "Casper, WY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16260": {
+    "name": "Cedar City, UT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16300": {
+    "name": "Cedar Rapids, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16340": {
+    "name": "Cedartown, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16380": {
+    "name": "Celina, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16420": {
+    "name": "Central City, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16460": {
+    "name": "Centralia, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16500": {
+    "name": "Centralia, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16540": {
+    "name": "Chambersburg-Waynesboro, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16580": {
+    "name": "Champaign-Urbana, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16620": {
+    "name": "Charleston, WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16660": {
+    "name": "Charleston-Mattoon, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "16700": {
+    "name": "Charleston-North Charleston, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16740": {
+    "name": "Charlotte-Concord-Gastonia, NC-SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16820": {
+    "name": "Charlottesville, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16860": {
+    "name": "Chattanooga, TN-GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16940": {
+    "name": "Cheyenne, WY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "16980": {
+    "name": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17020": {
+    "name": "Chico, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17060": {
+    "name": "Chillicothe, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17140": {
+    "name": "Cincinnati, OH-KY-IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17200": {
+    "name": "Claremont-Lebanon, NH-VT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17220": {
+    "name": "Clarksburg, WV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17260": {
+    "name": "Clarksdale, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17300": {
+    "name": "Clarksville, TN-KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17340": {
+    "name": "Clearlake, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17380": {
+    "name": "Cleveland, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17420": {
+    "name": "Cleveland, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17460": {
+    "name": "Cleveland-Elyria, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17500": {
+    "name": "Clewiston, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17540": {
+    "name": "Clinton, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17580": {
+    "name": "Clovis, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17620": {
+    "name": "Coamo, PR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17640": {
+    "name": "Coco, PR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17660": {
+    "name": "Coeur d'Alene, ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17700": {
+    "name": "Coffeyville, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17740": {
+    "name": "Coldwater, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "17780": {
+    "name": "College Station-Bryan, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17820": {
+    "name": "Colorado Springs, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17860": {
+    "name": "Columbia, MO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17900": {
+    "name": "Columbia, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "17980": {
+    "name": "Columbus, GA-AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18020": {
+    "name": "Columbus, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18060": {
+    "name": "Columbus, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18100": {
+    "name": "Columbus, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18140": {
+    "name": "Columbus, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18180": {
+    "name": "Concord, NH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18220": {
+    "name": "Connersville, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18260": {
+    "name": "Cookeville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18300": {
+    "name": "Coos Bay, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18380": {
+    "name": "Cordele, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18420": {
+    "name": "Corinth, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18460": {
+    "name": "Cornelia, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18500": {
+    "name": "Corning, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18580": {
+    "name": "Corpus Christi, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18620": {
+    "name": "Corsicana, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18660": {
+    "name": "Cortland, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18700": {
+    "name": "Corvallis, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18740": {
+    "name": "Coshocton, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18780": {
+    "name": "Craig, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18820": {
+    "name": "Crawfordsville, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18860": {
+    "name": "Crescent City, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18880": {
+    "name": "Crestview-Fort Walton Beach-Destin, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "18900": {
+    "name": "Crossville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "18980": {
+    "name": "Cullman, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19000": {
+    "name": "Cullowhee, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19060": {
+    "name": "Cumberland, MD-WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19100": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19140": {
+    "name": "Dalton, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19180": {
+    "name": "Danville, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19220": {
+    "name": "Danville, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19260": {
+    "name": "Danville, VA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19300": {
+    "name": "Daphne-Fairhope-Foley, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19340": {
+    "name": "Davenport-Moline-Rock Island, IA-IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19380": {
+    "name": "Dayton, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19420": {
+    "name": "Dayton, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19460": {
+    "name": "Decatur, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19500": {
+    "name": "Decatur, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19540": {
+    "name": "Decatur, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19580": {
+    "name": "Defiance, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19620": {
+    "name": "Del Rio, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19660": {
+    "name": "Deltona-Daytona Beach-Ormond Beach, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19700": {
+    "name": "Deming, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19740": {
+    "name": "Denver-Aurora-Lakewood, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19760": {
+    "name": "DeRidder, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19780": {
+    "name": "Des Moines-West Des Moines, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19820": {
+    "name": "Detroit-Warren-Dearborn, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "19860": {
+    "name": "Dickinson, ND",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19940": {
+    "name": "Dixon, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "19980": {
+    "name": "Dodge City, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20020": {
+    "name": "Dothan, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20060": {
+    "name": "Douglas, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20100": {
+    "name": "Dover, DE",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20140": {
+    "name": "Dublin, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20180": {
+    "name": "DuBois, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20220": {
+    "name": "Dubuque, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20260": {
+    "name": "Duluth, MN-WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20300": {
+    "name": "Dumas, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20340": {
+    "name": "Duncan, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20380": {
+    "name": "Dunn, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20420": {
+    "name": "Durango, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20460": {
+    "name": "Durant, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20500": {
+    "name": "Durham-Chapel Hill, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20540": {
+    "name": "Dyersburg, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20580": {
+    "name": "Eagle Pass, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20660": {
+    "name": "Easton, MD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20700": {
+    "name": "East Stroudsburg, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20740": {
+    "name": "Eau Claire, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20780": {
+    "name": "Edwards, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20820": {
+    "name": "Effingham, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20900": {
+    "name": "El Campo, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "20940": {
+    "name": "El Centro, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "20980": {
+    "name": "El Dorado, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21020": {
+    "name": "Elizabeth City, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21060": {
+    "name": "Elizabethtown-Fort Knox, KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21120": {
+    "name": "Elk City, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21140": {
+    "name": "Elkhart-Goshen, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21180": {
+    "name": "Elkins, WV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21220": {
+    "name": "Elko, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21260": {
+    "name": "Ellensburg, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21300": {
+    "name": "Elmira, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21340": {
+    "name": "El Paso, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21380": {
+    "name": "Emporia, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21420": {
+    "name": "Enid, OK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21460": {
+    "name": "Enterprise, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21500": {
+    "name": "Erie, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21540": {
+    "name": "Escanaba, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21580": {
+    "name": "Española, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21640": {
+    "name": "Eufaula, AL-GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21660": {
+    "name": "Eugene, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21700": {
+    "name": "Eureka-Arcata-Fortuna, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21740": {
+    "name": "Evanston, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21780": {
+    "name": "Evansville, IN-KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21820": {
+    "name": "Fairbanks, AK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "21840": {
+    "name": "Fairfield, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21860": {
+    "name": "Fairmont, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21900": {
+    "name": "Fairmont, WV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "21980": {
+    "name": "Fallon, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22020": {
+    "name": "Fargo, ND-MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22060": {
+    "name": "Faribault-Northfield, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22100": {
+    "name": "Farmington, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22140": {
+    "name": "Farmington, NM",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22180": {
+    "name": "Fayetteville, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22220": {
+    "name": "Fayetteville-Springdale-Rogers, AR-MO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22260": {
+    "name": "Fergus Falls, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22280": {
+    "name": "Fernley, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22300": {
+    "name": "Findlay, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22340": {
+    "name": "Fitzgerald, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22380": {
+    "name": "Flagstaff, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22420": {
+    "name": "Flint, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22500": {
+    "name": "Florence, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22520": {
+    "name": "Florence-Muscle Shoals, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22540": {
+    "name": "Fond du Lac, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22580": {
+    "name": "Forest City, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22620": {
+    "name": "Forrest City, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22660": {
+    "name": "Fort Collins, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "22700": {
+    "name": "Fort Dodge, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22780": {
+    "name": "Fort Leonard Wood, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22800": {
+    "name": "Fort Madison-Keokuk, IA-IL-MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22820": {
+    "name": "Fort Morgan, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22840": {
+    "name": "Fort Payne, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22860": {
+    "name": "Fort Polk South, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "22900": {
+    "name": "Fort Smith, AR-OK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23060": {
+    "name": "Fort Wayne, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23140": {
+    "name": "Frankfort, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23180": {
+    "name": "Frankfort, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23240": {
+    "name": "Fredericksburg, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23300": {
+    "name": "Freeport, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23340": {
+    "name": "Fremont, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23380": {
+    "name": "Fremont, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23420": {
+    "name": "Fresno, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23460": {
+    "name": "Gadsden, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23500": {
+    "name": "Gaffney, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23540": {
+    "name": "Gainesville, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23580": {
+    "name": "Gainesville, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23620": {
+    "name": "Gainesville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23660": {
+    "name": "Galesburg, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23700": {
+    "name": "Gallup, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23780": {
+    "name": "Garden City, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23820": {
+    "name": "Gardnerville Ranchos, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23860": {
+    "name": "Georgetown, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23900": {
+    "name": "Gettysburg, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "23940": {
+    "name": "Gillette, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "23980": {
+    "name": "Glasgow, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24020": {
+    "name": "Glens Falls, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24060": {
+    "name": "Glenwood Springs, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24100": {
+    "name": "Gloversville, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24140": {
+    "name": "Goldsboro, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24220": {
+    "name": "Grand Forks, ND-MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24260": {
+    "name": "Grand Island, NE",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24300": {
+    "name": "Grand Junction, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24330": {
+    "name": "Grand Rapids, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24340": {
+    "name": "Grand Rapids-Wyoming, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24380": {
+    "name": "Grants, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24420": {
+    "name": "Grants Pass, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24460": {
+    "name": "Great Bend, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24500": {
+    "name": "Great Falls, MT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24540": {
+    "name": "Greeley, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24580": {
+    "name": "Green Bay, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24620": {
+    "name": "Greeneville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24640": {
+    "name": "Greenfield Town, MA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24660": {
+    "name": "Greensboro-High Point, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24700": {
+    "name": "Greensburg, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24740": {
+    "name": "Greenville, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24780": {
+    "name": "Greenville, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24820": {
+    "name": "Greenville, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24860": {
+    "name": "Greenville-Anderson-Mauldin, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "24900": {
+    "name": "Greenwood, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24940": {
+    "name": "Greenwood, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "24980": {
+    "name": "Grenada, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25020": {
+    "name": "Guayama, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25060": {
+    "name": "Gulfport-Biloxi-Pascagoula, MS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25100": {
+    "name": "Guymon, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25180": {
+    "name": "Hagerstown-Martinsburg, MD-WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25200": {
+    "name": "Hailey, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25220": {
+    "name": "Hammond, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25260": {
+    "name": "Hanford-Corcoran, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25300": {
+    "name": "Hannibal, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25420": {
+    "name": "Harrisburg-Carlisle, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25460": {
+    "name": "Harrison, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25500": {
+    "name": "Harrisonburg, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25540": {
+    "name": "Hartford-West Hartford-East Hartford, CT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25580": {
+    "name": "Hastings, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25620": {
+    "name": "Hattiesburg, MS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25700": {
+    "name": "Hays, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25720": {
+    "name": "Heber, UT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25740": {
+    "name": "Helena, MT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25760": {
+    "name": "Helena-West Helena, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25780": {
+    "name": "Henderson, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25820": {
+    "name": "Hereford, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25840": {
+    "name": "Hermiston-Pendleton, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25860": {
+    "name": "Hickory-Lenoir-Morganton, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25880": {
+    "name": "Hillsdale, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25900": {
+    "name": "Hilo, HI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "25940": {
+    "name": "Hilton Head Island-Bluffton-Beaufort, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "25980": {
+    "name": "Hinesville, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26020": {
+    "name": "Hobbs, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26090": {
+    "name": "Holland, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26140": {
+    "name": "Homosassa Springs, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26220": {
+    "name": "Hood River, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26260": {
+    "name": "Hope, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26300": {
+    "name": "Hot Springs, AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26340": {
+    "name": "Houghton, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26380": {
+    "name": "Houma-Thibodaux, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26420": {
+    "name": "Houston-The Woodlands-Sugar Land, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26460": {
+    "name": "Hudson, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26500": {
+    "name": "Huntingdon, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26540": {
+    "name": "Huntington, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26580": {
+    "name": "Huntington-Ashland, WV-KY-OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26620": {
+    "name": "Huntsville, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26660": {
+    "name": "Huntsville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26700": {
+    "name": "Huron, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26740": {
+    "name": "Hutchinson, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26780": {
+    "name": "Hutchinson, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26820": {
+    "name": "Idaho Falls, ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26860": {
+    "name": "Indiana, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26900": {
+    "name": "Indianapolis-Carmel-Anderson, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "26940": {
+    "name": "Indianola, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26960": {
+    "name": "Ionia, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "26980": {
+    "name": "Iowa City, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27020": {
+    "name": "Iron Mountain, MI-WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27060": {
+    "name": "Ithaca, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27100": {
+    "name": "Jackson, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27140": {
+    "name": "Jackson, MS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27160": {
+    "name": "Jackson, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27180": {
+    "name": "Jackson, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27220": {
+    "name": "Jackson, WY-ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27260": {
+    "name": "Jacksonville, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27300": {
+    "name": "Jacksonville, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27340": {
+    "name": "Jacksonville, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27380": {
+    "name": "Jacksonville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27420": {
+    "name": "Jamestown, ND",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27460": {
+    "name": "Jamestown-Dunkirk-Fredonia, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27500": {
+    "name": "Janesville-Beloit, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27540": {
+    "name": "Jasper, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27580": {
+    "name": "Jayuya, PR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27600": {
+    "name": "Jefferson, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27620": {
+    "name": "Jefferson City, MO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27660": {
+    "name": "Jennings, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27700": {
+    "name": "Jesup, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27740": {
+    "name": "Johnson City, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27780": {
+    "name": "Johnstown, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27860": {
+    "name": "Jonesboro, AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27900": {
+    "name": "Joplin, MO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "27920": {
+    "name": "Junction City, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27940": {
+    "name": "Juneau, AK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "27980": {
+    "name": "Kahului-Wailuku-Lahaina, HI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28020": {
+    "name": "Kalamazoo-Portage, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28060": {
+    "name": "Kalispell, MT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28100": {
+    "name": "Kankakee, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28140": {
+    "name": "Kansas City, MO-KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28180": {
+    "name": "Kapaa, HI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28260": {
+    "name": "Kearney, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28300": {
+    "name": "Keene, NH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28340": {
+    "name": "Kendallville, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28380": {
+    "name": "Kennett, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28420": {
+    "name": "Kennewick-Richland, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28500": {
+    "name": "Kerrville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28540": {
+    "name": "Ketchikan, AK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28580": {
+    "name": "Key West, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28620": {
+    "name": "Kill Devil Hills, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28660": {
+    "name": "Killeen-Temple, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28700": {
+    "name": "Kingsport-Bristol-Bristol, TN-VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28740": {
+    "name": "Kingston, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "28780": {
+    "name": "Kingsville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28820": {
+    "name": "Kinston, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28860": {
+    "name": "Kirksville, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28900": {
+    "name": "Klamath Falls, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "28940": {
+    "name": "Knoxville, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29020": {
+    "name": "Kokomo, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29060": {
+    "name": "Laconia, NH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29100": {
+    "name": "La Crosse-Onalaska, WI-MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29180": {
+    "name": "Lafayette, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29200": {
+    "name": "Lafayette-West Lafayette, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29260": {
+    "name": "La Grande, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29300": {
+    "name": "LaGrange, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29340": {
+    "name": "Lake Charles, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29380": {
+    "name": "Lake City, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29420": {
+    "name": "Lake Havasu City-Kingman, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29460": {
+    "name": "Lakeland-Winter Haven, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29500": {
+    "name": "Lamesa, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29540": {
+    "name": "Lancaster, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29620": {
+    "name": "Lansing-East Lansing, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29660": {
+    "name": "Laramie, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29700": {
+    "name": "Laredo, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29740": {
+    "name": "Las Cruces, NM",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29780": {
+    "name": "Las Vegas, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29820": {
+    "name": "Las Vegas-Henderson-Paradise, NV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29860": {
+    "name": "Laurel, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29900": {
+    "name": "Laurinburg, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "29940": {
+    "name": "Lawrence, KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "29980": {
+    "name": "Lawrenceburg, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30020": {
+    "name": "Lawton, OK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30060": {
+    "name": "Lebanon, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30140": {
+    "name": "Lebanon, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30220": {
+    "name": "Levelland, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30260": {
+    "name": "Lewisburg, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30280": {
+    "name": "Lewisburg, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30300": {
+    "name": "Lewiston, ID-WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30340": {
+    "name": "Lewiston-Auburn, ME",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30380": {
+    "name": "Lewistown, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30420": {
+    "name": "Lexington, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30460": {
+    "name": "Lexington-Fayette, KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30580": {
+    "name": "Liberal, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30620": {
+    "name": "Lima, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30660": {
+    "name": "Lincoln, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30700": {
+    "name": "Lincoln, NE",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30780": {
+    "name": "Little Rock-North Little Rock-Conway, AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30820": {
+    "name": "Lock Haven, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30860": {
+    "name": "Logan, UT-ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "30880": {
+    "name": "Logan, WV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30900": {
+    "name": "Logansport, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30940": {
+    "name": "London, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "30980": {
+    "name": "Longview, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31020": {
+    "name": "Longview, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31060": {
+    "name": "Los Alamos, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31080": {
+    "name": "Los Angeles-Long Beach-Anaheim, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31140": {
+    "name": "Louisville/Jefferson County, KY-IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31180": {
+    "name": "Lubbock, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31220": {
+    "name": "Ludington, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31260": {
+    "name": "Lufkin, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31300": {
+    "name": "Lumberton, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31340": {
+    "name": "Lynchburg, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31380": {
+    "name": "Macomb, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31420": {
+    "name": "Macon-Bibb County, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31460": {
+    "name": "Madera, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31500": {
+    "name": "Madison, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31540": {
+    "name": "Madison, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31580": {
+    "name": "Madisonville, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31620": {
+    "name": "Magnolia, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31660": {
+    "name": "Malone, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31680": {
+    "name": "Malvern, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31700": {
+    "name": "Manchester-Nashua, NH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31740": {
+    "name": "Manhattan, KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31820": {
+    "name": "Manitowoc, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31860": {
+    "name": "Mankato-North Mankato, MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31900": {
+    "name": "Mansfield, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "31930": {
+    "name": "Marietta, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31940": {
+    "name": "Marinette, WI-MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "31980": {
+    "name": "Marion, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32000": {
+    "name": "Marion, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32020": {
+    "name": "Marion, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32100": {
+    "name": "Marquette, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32140": {
+    "name": "Marshall, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32180": {
+    "name": "Marshall, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32220": {
+    "name": "Marshall, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32260": {
+    "name": "Marshalltown, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32280": {
+    "name": "Martin, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32300": {
+    "name": "Martinsville, VA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32340": {
+    "name": "Maryville, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32380": {
+    "name": "Mason City, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32420": {
+    "name": "Mayagüez, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "32460": {
+    "name": "Mayfield, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32500": {
+    "name": "Maysville, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32540": {
+    "name": "McAlester, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32580": {
+    "name": "McAllen-Edinburg-Mission, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "32620": {
+    "name": "McComb, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32660": {
+    "name": "McMinnville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32700": {
+    "name": "McPherson, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32740": {
+    "name": "Meadville, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32780": {
+    "name": "Medford, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "32820": {
+    "name": "Memphis, TN-MS-AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "32860": {
+    "name": "Menomonie, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32900": {
+    "name": "Merced, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "32940": {
+    "name": "Meridian, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "32980": {
+    "name": "Merrill, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33020": {
+    "name": "Mexico, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33060": {
+    "name": "Miami, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33100": {
+    "name": "Miami-Fort Lauderdale-West Palm Beach, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33140": {
+    "name": "Michigan City-La Porte, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33180": {
+    "name": "Middlesborough, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33220": {
+    "name": "Midland, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33260": {
+    "name": "Midland, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33300": {
+    "name": "Milledgeville, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33340": {
+    "name": "Milwaukee-Waukesha-West Allis, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33420": {
+    "name": "Mineral Wells, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33460": {
+    "name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33500": {
+    "name": "Minot, ND",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33540": {
+    "name": "Missoula, MT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33580": {
+    "name": "Mitchell, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33620": {
+    "name": "Moberly, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33660": {
+    "name": "Mobile, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33700": {
+    "name": "Modesto, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33740": {
+    "name": "Monroe, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33780": {
+    "name": "Monroe, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33860": {
+    "name": "Montgomery, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "33940": {
+    "name": "Montrose, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "33980": {
+    "name": "Morehead City, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34020": {
+    "name": "Morgan City, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34060": {
+    "name": "Morgantown, WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34100": {
+    "name": "Morristown, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34140": {
+    "name": "Moscow, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34180": {
+    "name": "Moses Lake, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34220": {
+    "name": "Moultrie, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34260": {
+    "name": "Mountain Home, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34300": {
+    "name": "Mountain Home, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34340": {
+    "name": "Mount Airy, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34380": {
+    "name": "Mount Pleasant, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34420": {
+    "name": "Mount Pleasant, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34460": {
+    "name": "Mount Sterling, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34500": {
+    "name": "Mount Vernon, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34540": {
+    "name": "Mount Vernon, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34580": {
+    "name": "Mount Vernon-Anacortes, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34620": {
+    "name": "Muncie, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34660": {
+    "name": "Murray, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34700": {
+    "name": "Muscatine, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34740": {
+    "name": "Muskegon, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34780": {
+    "name": "Muskogee, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34820": {
+    "name": "Myrtle Beach-Conway-North Myrtle Beach, SC-NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34860": {
+    "name": "Nacogdoches, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "34900": {
+    "name": "Napa, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34940": {
+    "name": "Naples-Immokalee-Marco Island, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "34980": {
+    "name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35020": {
+    "name": "Natchez, MS-LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35060": {
+    "name": "Natchitoches, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35100": {
+    "name": "New Bern, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35140": {
+    "name": "Newberry, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35220": {
+    "name": "New Castle, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35260": {
+    "name": "New Castle, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35300": {
+    "name": "New Haven-Milford, CT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35380": {
+    "name": "New Orleans-Metairie, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35420": {
+    "name": "New Philadelphia-Dover, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35440": {
+    "name": "Newport, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35460": {
+    "name": "Newport, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35500": {
+    "name": "Newton, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35580": {
+    "name": "New Ulm, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35620": {
+    "name": "New York-Newark-Jersey City, NY-NJ-PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35660": {
+    "name": "Niles-Benton Harbor, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35700": {
+    "name": "Nogales, AZ",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35740": {
+    "name": "Norfolk, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35820": {
+    "name": "North Platte, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35840": {
+    "name": "North Port-Sarasota-Bradenton, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "35860": {
+    "name": "North Vernon, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35900": {
+    "name": "North Wilkesboro, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35940": {
+    "name": "Norwalk, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "35980": {
+    "name": "Norwich-New London, CT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36020": {
+    "name": "Oak Harbor, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36100": {
+    "name": "Ocala, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36140": {
+    "name": "Ocean City, NJ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36220": {
+    "name": "Odessa, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36260": {
+    "name": "Ogden-Clearfield, UT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36300": {
+    "name": "Ogdensburg-Massena, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36340": {
+    "name": "Oil City, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36380": {
+    "name": "Okeechobee, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36420": {
+    "name": "Oklahoma City, OK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36460": {
+    "name": "Olean, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36500": {
+    "name": "Olympia-Tumwater, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36540": {
+    "name": "Omaha-Council Bluffs, NE-IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36580": {
+    "name": "Oneonta, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36620": {
+    "name": "Ontario, OR-ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36660": {
+    "name": "Opelousas, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36700": {
+    "name": "Orangeburg, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36740": {
+    "name": "Orlando-Kissimmee-Sanford, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36780": {
+    "name": "Oshkosh-Neenah, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "36820": {
+    "name": "Oskaloosa, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36830": {
+    "name": "Othello, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36840": {
+    "name": "Ottawa, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36860": {
+    "name": "Ottawa-Peru, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36900": {
+    "name": "Ottumwa, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36940": {
+    "name": "Owatonna, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "36980": {
+    "name": "Owensboro, KY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37020": {
+    "name": "Owosso, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37060": {
+    "name": "Oxford, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37080": {
+    "name": "Oxford, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37100": {
+    "name": "Oxnard-Thousand Oaks-Ventura, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37120": {
+    "name": "Ozark, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37140": {
+    "name": "Paducah, KY-IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37220": {
+    "name": "Pahrump, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37260": {
+    "name": "Palatka, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37300": {
+    "name": "Palestine, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37340": {
+    "name": "Palm Bay-Melbourne-Titusville, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37420": {
+    "name": "Pampa, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37460": {
+    "name": "Panama City, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37500": {
+    "name": "Paragould, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37540": {
+    "name": "Paris, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37580": {
+    "name": "Paris, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37620": {
+    "name": "Parkersburg-Vienna, WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37660": {
+    "name": "Parsons, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37740": {
+    "name": "Payson, AZ",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37780": {
+    "name": "Pecos, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37800": {
+    "name": "Pella, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37860": {
+    "name": "Pensacola-Ferry Pass-Brent, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37900": {
+    "name": "Peoria, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "37940": {
+    "name": "Peru, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "37980": {
+    "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38060": {
+    "name": "Phoenix-Mesa-Scottsdale, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38100": {
+    "name": "Picayune, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38180": {
+    "name": "Pierre, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38220": {
+    "name": "Pine Bluff, AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38240": {
+    "name": "Pinehurst-Southern Pines, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38260": {
+    "name": "Pittsburg, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38300": {
+    "name": "Pittsburgh, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38340": {
+    "name": "Pittsfield, MA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38380": {
+    "name": "Plainview, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38420": {
+    "name": "Platteville, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38460": {
+    "name": "Plattsburgh, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38500": {
+    "name": "Plymouth, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38540": {
+    "name": "Pocatello, ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38580": {
+    "name": "Point Pleasant, WV-OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38620": {
+    "name": "Ponca City, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38660": {
+    "name": "Ponce, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38700": {
+    "name": "Pontiac, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38740": {
+    "name": "Poplar Bluff, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38780": {
+    "name": "Portales, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38820": {
+    "name": "Port Angeles, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38840": {
+    "name": "Port Clinton, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38860": {
+    "name": "Portland-South Portland, ME",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38900": {
+    "name": "Portland-Vancouver-Hillsboro, OR-WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "38920": {
+    "name": "Port Lavaca, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "38940": {
+    "name": "Port St. Lucie, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39020": {
+    "name": "Portsmouth, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39060": {
+    "name": "Pottsville, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39140": {
+    "name": "Prescott, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39220": {
+    "name": "Price, UT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39260": {
+    "name": "Prineville, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39300": {
+    "name": "Providence-Warwick, RI-MA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39340": {
+    "name": "Provo-Orem, UT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39380": {
+    "name": "Pueblo, CO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39420": {
+    "name": "Pullman, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39460": {
+    "name": "Punta Gorda, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39500": {
+    "name": "Quincy, IL-MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39540": {
+    "name": "Racine, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39580": {
+    "name": "Raleigh, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39660": {
+    "name": "Rapid City, SD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39700": {
+    "name": "Raymondville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39740": {
+    "name": "Reading, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39780": {
+    "name": "Red Bluff, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39820": {
+    "name": "Redding, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39860": {
+    "name": "Red Wing, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39900": {
+    "name": "Reno, NV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "39940": {
+    "name": "Rexburg, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "39980": {
+    "name": "Richmond, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40060": {
+    "name": "Richmond, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40080": {
+    "name": "Richmond-Berea, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40100": {
+    "name": "Rio Grande City, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40140": {
+    "name": "Riverside-San Bernardino-Ontario, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40180": {
+    "name": "Riverton, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40220": {
+    "name": "Roanoke, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40260": {
+    "name": "Roanoke Rapids, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40300": {
+    "name": "Rochelle, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40340": {
+    "name": "Rochester, MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40380": {
+    "name": "Rochester, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40420": {
+    "name": "Rockford, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40460": {
+    "name": "Rockingham, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40540": {
+    "name": "Rock Springs, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40580": {
+    "name": "Rocky Mount, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40620": {
+    "name": "Rolla, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40660": {
+    "name": "Rome, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40700": {
+    "name": "Roseburg, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40740": {
+    "name": "Roswell, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40760": {
+    "name": "Ruidoso, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40780": {
+    "name": "Russellville, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40820": {
+    "name": "Ruston, LA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40860": {
+    "name": "Rutland, VT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40900": {
+    "name": "Sacramento--Roseville--Arden-Arcade, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "40940": {
+    "name": "Safford, AZ",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "40980": {
+    "name": "Saginaw, MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41060": {
+    "name": "St. Cloud, MN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41100": {
+    "name": "St. George, UT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41140": {
+    "name": "St. Joseph, MO-KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41180": {
+    "name": "St. Louis, MO-IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41220": {
+    "name": "St. Marys, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41260": {
+    "name": "St. Marys, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41400": {
+    "name": "Salem, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41420": {
+    "name": "Salem, OR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41460": {
+    "name": "Salina, KS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41500": {
+    "name": "Salinas, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41540": {
+    "name": "Salisbury, MD-DE",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41620": {
+    "name": "Salt Lake City, UT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41660": {
+    "name": "San Angelo, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41700": {
+    "name": "San Antonio-New Braunfels, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41740": {
+    "name": "San Diego-Carlsbad, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41760": {
+    "name": "Sandpoint, ID",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41780": {
+    "name": "Sandusky, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41820": {
+    "name": "Sanford, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "41860": {
+    "name": "San Francisco-Oakland-Hayward, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41900": {
+    "name": "San Germán, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41940": {
+    "name": "San Jose-Sunnyvale-Santa Clara, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "41980": {
+    "name": "San Juan-Carolina-Caguas, PR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42020": {
+    "name": "San Luis Obispo-Paso Robles-Arroyo Grande, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42100": {
+    "name": "Santa Cruz-Watsonville, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42140": {
+    "name": "Santa Fe, NM",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42180": {
+    "name": "Santa Isabel, PR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42200": {
+    "name": "Santa Maria-Santa Barbara, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42220": {
+    "name": "Santa Rosa, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42300": {
+    "name": "Sault Ste. Marie, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42340": {
+    "name": "Savannah, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42380": {
+    "name": "Sayre, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42420": {
+    "name": "Scottsbluff, NE",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42460": {
+    "name": "Scottsboro, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42540": {
+    "name": "Scranton--Wilkes-Barre--Hazleton, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42620": {
+    "name": "Searcy, AR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42660": {
+    "name": "Seattle-Tacoma-Bellevue, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42680": {
+    "name": "Sebastian-Vero Beach, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42700": {
+    "name": "Sebring, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "42740": {
+    "name": "Sedalia, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42780": {
+    "name": "Selinsgrove, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42820": {
+    "name": "Selma, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42860": {
+    "name": "Seneca, SC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42900": {
+    "name": "Seneca Falls, NY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42940": {
+    "name": "Sevierville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "42980": {
+    "name": "Seymour, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43020": {
+    "name": "Shawano, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43060": {
+    "name": "Shawnee, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43100": {
+    "name": "Sheboygan, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43140": {
+    "name": "Shelby, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43180": {
+    "name": "Shelbyville, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43220": {
+    "name": "Shelton, WA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43260": {
+    "name": "Sheridan, WY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43300": {
+    "name": "Sherman-Denison, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43320": {
+    "name": "Show Low, AZ",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43340": {
+    "name": "Shreveport-Bossier City, LA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43380": {
+    "name": "Sidney, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43420": {
+    "name": "Sierra Vista-Douglas, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43460": {
+    "name": "Sikeston, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43500": {
+    "name": "Silver City, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43580": {
+    "name": "Sioux City, IA-NE-SD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43620": {
+    "name": "Sioux Falls, SD",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43660": {
+    "name": "Snyder, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43700": {
+    "name": "Somerset, KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43740": {
+    "name": "Somerset, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43760": {
+    "name": "Sonora, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43780": {
+    "name": "South Bend-Mishawaka, IN-MI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43900": {
+    "name": "Spartanburg, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "43940": {
+    "name": "Spearfish, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "43980": {
+    "name": "Spencer, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44020": {
+    "name": "Spirit Lake, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44060": {
+    "name": "Spokane-Spokane Valley, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44100": {
+    "name": "Springfield, IL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44140": {
+    "name": "Springfield, MA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44180": {
+    "name": "Springfield, MO",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44220": {
+    "name": "Springfield, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44260": {
+    "name": "Starkville, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44300": {
+    "name": "State College, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44340": {
+    "name": "Statesboro, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44420": {
+    "name": "Staunton-Waynesboro, VA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44460": {
+    "name": "Steamboat Springs, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44500": {
+    "name": "Stephenville, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44540": {
+    "name": "Sterling, CO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44580": {
+    "name": "Sterling, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44620": {
+    "name": "Stevens Point, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44660": {
+    "name": "Stillwater, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44700": {
+    "name": "Stockton-Lodi, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44740": {
+    "name": "Storm Lake, IA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44780": {
+    "name": "Sturgis, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44860": {
+    "name": "Sulphur Springs, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44900": {
+    "name": "Summerville, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44920": {
+    "name": "Summit Park, UT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "44940": {
+    "name": "Sumter, SC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "44980": {
+    "name": "Sunbury, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45000": {
+    "name": "Susanville, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45020": {
+    "name": "Sweetwater, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45060": {
+    "name": "Syracuse, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45140": {
+    "name": "Tahlequah, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45180": {
+    "name": "Talladega-Sylacauga, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45220": {
+    "name": "Tallahassee, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45300": {
+    "name": "Tampa-St. Petersburg-Clearwater, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45340": {
+    "name": "Taos, NM",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45380": {
+    "name": "Taylorville, IL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45460": {
+    "name": "Terre Haute, IN",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45500": {
+    "name": "Texarkana, TX-AR",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45520": {
+    "name": "The Dalles, OR",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45540": {
+    "name": "The Villages, FL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45580": {
+    "name": "Thomaston, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45620": {
+    "name": "Thomasville, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45660": {
+    "name": "Tiffin, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45700": {
+    "name": "Tifton, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45740": {
+    "name": "Toccoa, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45780": {
+    "name": "Toledo, OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45820": {
+    "name": "Topeka, KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45860": {
+    "name": "Torrington, CT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45900": {
+    "name": "Traverse City, MI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "45940": {
+    "name": "Trenton, NJ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "45980": {
+    "name": "Troy, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46020": {
+    "name": "Truckee-Grass Valley, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46060": {
+    "name": "Tucson, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46100": {
+    "name": "Tullahoma-Manchester, TN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46140": {
+    "name": "Tulsa, OK",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46180": {
+    "name": "Tupelo, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46220": {
+    "name": "Tuscaloosa, AL",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46300": {
+    "name": "Twin Falls, ID",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46340": {
+    "name": "Tyler, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46380": {
+    "name": "Ukiah, CA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46460": {
+    "name": "Union City, TN-KY",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46500": {
+    "name": "Urbana, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46520": {
+    "name": "Urban Honolulu, HI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46540": {
+    "name": "Utica-Rome, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46620": {
+    "name": "Uvalde, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46660": {
+    "name": "Valdosta, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46700": {
+    "name": "Vallejo-Fairfield, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "46740": {
+    "name": "Valley, AL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46780": {
+    "name": "Van Wert, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46820": {
+    "name": "Vermillion, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46860": {
+    "name": "Vernal, UT",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46900": {
+    "name": "Vernon, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "46980": {
+    "name": "Vicksburg, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47020": {
+    "name": "Victoria, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47080": {
+    "name": "Vidalia, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47180": {
+    "name": "Vincennes, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47220": {
+    "name": "Vineland-Bridgeton, NJ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47240": {
+    "name": "Vineyard Haven, MA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47260": {
+    "name": "Virginia Beach-Norfolk-Newport News, VA-NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47300": {
+    "name": "Visalia-Porterville, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47340": {
+    "name": "Wabash, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47380": {
+    "name": "Waco, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47420": {
+    "name": "Wahpeton, ND-MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47460": {
+    "name": "Walla Walla, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47540": {
+    "name": "Wapakoneta, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47580": {
+    "name": "Warner Robins, GA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47620": {
+    "name": "Warren, PA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47660": {
+    "name": "Warrensburg, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47700": {
+    "name": "Warsaw, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47780": {
+    "name": "Washington, IN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47820": {
+    "name": "Washington, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47900": {
+    "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47920": {
+    "name": "Washington Court House, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "47940": {
+    "name": "Waterloo-Cedar Falls, IA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "47980": {
+    "name": "Watertown, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48020": {
+    "name": "Watertown-Fort Atkinson, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48060": {
+    "name": "Watertown-Fort Drum, NY",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48100": {
+    "name": "Wauchula, FL",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48140": {
+    "name": "Wausau, WI",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48180": {
+    "name": "Waycross, GA",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48220": {
+    "name": "Weatherford, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48260": {
+    "name": "Weirton-Steubenville, WV-OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48300": {
+    "name": "Wenatchee, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48460": {
+    "name": "West Plains, MO",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48500": {
+    "name": "West Point, MS",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48540": {
+    "name": "Wheeling, WV-OH",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48580": {
+    "name": "Whitewater-Elkhorn, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48620": {
+    "name": "Wichita, KS",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48660": {
+    "name": "Wichita Falls, TX",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48700": {
+    "name": "Williamsport, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48780": {
+    "name": "Williston, ND",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48820": {
+    "name": "Willmar, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48900": {
+    "name": "Wilmington, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "48940": {
+    "name": "Wilmington, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "48980": {
+    "name": "Wilson, NC",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49020": {
+    "name": "Winchester, VA-WV",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49080": {
+    "name": "Winnemucca, NV",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49100": {
+    "name": "Winona, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49180": {
+    "name": "Winston-Salem, NC",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49220": {
+    "name": "Wisconsin Rapids-Marshfield, WI",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49260": {
+    "name": "Woodward, OK",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49300": {
+    "name": "Wooster, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49340": {
+    "name": "Worcester, MA-CT",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49380": {
+    "name": "Worthington, MN",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49420": {
+    "name": "Yakima, WA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49460": {
+    "name": "Yankton, SD",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49620": {
+    "name": "York-Hanover, PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49660": {
+    "name": "Youngstown-Warren-Boardman, OH-PA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49700": {
+    "name": "Yuba City, CA",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49740": {
+    "name": "Yuma, AZ",
+    "lsad": "M1",
+    "area_type": "METROPOLITAN"
+  },
+  "49780": {
+    "name": "Zanesville, OH",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  },
+  "49820": {
+    "name": "Zapata, TX",
+    "lsad": "M2",
+    "area_type": "MICROPOLITAN"
+  }
+}

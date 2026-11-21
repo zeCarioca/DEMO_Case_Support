@@ -1,0 +1,139 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String    @id @default(uuid())
+  email        String    @unique
+  name         String
+  picture      String?
+  role         String    @default("CASE_SUPPORT") // INTAKE, CASE_SUPPORT, CASE_MANAGER, LEGAL, FINANCE, ADMIN
+  isActive     Boolean   @default(true)
+  googleSub    String?   @unique
+  hostedDomain String?
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  
+  assignedCasesSupport Case[] @relation("CaseSupport")
+  assignedCasesManager Case[] @relation("CaseManager")
+  
+  completedSteps CaseChecklistProgress[] @relation("CompletedBy")
+  approvedSteps  CaseChecklistProgress[] @relation("ApprovedBy")
+}
+
+model ChecklistTemplate {
+  id                    String   @id @default(uuid())
+  code                  String   @unique // e.g. "PERM-PW-01", "I140-12"
+  title                 String
+  description           String?
+  phase                 String   // PHASE_A_DOL_PERM, PHASE_B_USCIS_I140, PHASE_C_GREEN_CARD_AOS, SUBPROCESS_RFI_RFE
+  category              String   // INTAKE_TRIAGE, PREVAILING_WAGE_ETA9141, etc.
+  assignedRole          String   // INTAKE, CASE_SUPPORT, CASE_MANAGER, LEGAL, FINANCE
+  requiresApprovalFrom  String?  // CASE_MANAGER, LEGAL
+  order                 Int
+  criticalNote          String?
+  officialDocReference  String?
+  createdAt             DateTime @default(now())
+
+  progressEntries CaseChecklistProgress[]
+}
+
+model Case {
+  id                  String   @id @default(uuid())
+  caseNumber          String   @unique
+  clientName          String
+  sponsorName         String
+  jobTitle            String
+  socCode             String?
+  eb3Category         String   @default("SKILLED_WORKER") // SKILLED_WORKER, PROFESSIONAL, OTHER_WORKERS
+  currentPhase        String   @default("PHASE_A_DOL_PERM")
+  status              String   @default("INTAKE")
+  
+  // External system reference links
+  googleDriveUrl      String?
+  flagCaseNumber      String?
+
+  // Dates
+  pwdSubmissionDate     DateTime?
+  pwdIssuedDate         DateTime?
+  pwdExpirationDate     DateTime?
+  recruitmentStartDate  DateTime?
+  recruitmentEndDate    DateTime?
+  permCertificationDate DateTime?
+  permExpirationDate    DateTime?
+  priorityDate          DateTime?
+
+  // Assignments
+  caseSupportId       String?
+  caseSupport         User?    @relation("CaseSupport", fields: [caseSupportId], references: [id])
+  caseManagerId       String?
+  caseManager         User?    @relation("CaseManager", fields: [caseManagerId], references: [id])
+  attorneyName        String   @default("Eleanor Vance, Esq.")
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  checklists          CaseChecklistProgress[]
+  customTasks         CaseCustomTask[]
+}
+
+model CaseChecklistProgress {
+  id                 String             @id @default(uuid())
+  caseId             String
+  case               Case               @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  templateId         String
+  template           ChecklistTemplate  @relation(fields: [templateId], references: [id])
+  
+  completed          Boolean            @default(false)
+  completedAt        DateTime?
+  completedByUserId  String?
+  completedByUser    User?              @relation("CompletedBy", fields: [completedByUserId], references: [id])
+  
+  approved           Boolean?
+  approvedAt         DateTime?
+  approvedByUserId   String?
+  approvedByUser     User?              @relation("ApprovedBy", fields: [approvedByUserId], references: [id])
+  
+  notes              String?
+  updatedAt          DateTime           @updatedAt
+
+  @@unique([caseId, templateId])
+}
+
+model CaseCustomTask {
+  id            String    @id @default(uuid())
+  caseId        String
+  case          Case      @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  title         String
+  assignedRole  String    @default("CASE_SUPPORT")
+  criticalNote  String?
+  notes         String?
+  completed     Boolean   @default(false)
+  completedAt   DateTime?
+  isArchived    Boolean   @default(false)
+  archivedAt    DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model PriorityTask {
+  id           String    @id @default(uuid())
+  title        String
+  description  String?
+  priority     String    @default("MEDIUM") // CRITICAL, HIGH, MEDIUM, LOW
+  assignedRole String    @default("CASE_SUPPORT") // INTAKE, CASE_SUPPORT, CASE_MANAGER, LEGAL, FINANCE
+  dueDate      DateTime?
+  order        Int       @default(0)
+  isCompleted  Boolean   @default(false)
+  completedAt  DateTime?
+  tags         String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+

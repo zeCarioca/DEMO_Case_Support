@@ -1,0 +1,146 @@
+:root {
+  color-scheme: light dark;
+  
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Notion Border Radius Scale */
+  --radius-xs: 4px;
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  --radius-none: 0px;
+
+  /* Notion Layered Elevation / Shadows */
+  --shadow-level-0: none;
+  --shadow-level-1: 0 0.175px 1.041px rgba(0, 0, 0, 0.01), 0 0.8px 2.925px rgba(0, 0, 0, 0.02), 0 2.025px 7.847px rgba(0, 0, 0, 0.027), 0 4px 18px rgba(0, 0, 0, 0.04);
+  --shadow-level-2: 0 1.2px 3.6px rgba(0, 0, 0, 0.015), 0 4px 12px rgba(0, 0, 0, 0.025), 0 10px 28px rgba(0, 0, 0, 0.035), 0 23px 52px rgba(0, 0, 0, 0.05);
+
+  /* Decorative Sticker Palette (Non-structural only) */
+  --sticker-sky: #62aef0;
+  --sticker-purple: #d6b6f6;
+  --sticker-purple-deep: #391c57;
+  --sticker-pink: #ff64c8;
+  --sticker-orange: #dd5b00;
+  --sticker-orange-deep: #793400;
+  --sticker-teal: #2a9d99;
+  --sticker-green: #1aae39;
+  --sticker-brown: #523410;
+
+  /* Notion Sticker Backgrounds & Text */
+  --sticker-red-bg: rgba(224, 62, 62, 0.12);
+  --sticker-red-text: #c92a2a;
+  --sticker-orange-bg: rgba(217, 115, 13, 0.12);
+  --sticker-orange-text: #d9730d;
+  --sticker-green-bg: rgba(46, 133, 85, 0.12);
+  --sticker-green-text: #2e8555;
+  --sticker-blue-bg: rgba(0, 117, 222, 0.10);
+  --sticker-purple-bg: rgba(144, 101, 176, 0.12);
+  --sticker-purple-text: #9065b0;
+  --sticker-brown-bg: rgba(159, 107, 83, 0.12);
+  --sticker-brown-text: #9f6b53;
+  --sticker-yellow-bg: rgba(223, 171, 1, 0.14);
+  --sticker-yellow-text: #8f6b00;
+
+  /* Default Notion Daylight (Warm Paper Canvas) */
+  --bg-page: #f6f5f4;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f0eeec;
+  --bg-hover: #ebe9e7;
+  --bg-select: #f5f4f2;
+  
+  --border: #e6e6e6;
+  --border-subtle: #eeeeee;
+  --border-contrast: #d1d5db;
+
+  --text-primary: #000000;
+  --text-secondary: #31302e;
+  --text-tertiary: #615d59;
+  --text-ghost: #a39e98;
+  --text-dim: #78716c;
+
+  /* Structural Brand Accent: Notion Blue */
+  --accent: #0075de;
+  --accent-active: #005bab;
+  --accent-muted: rgba(0, 117, 222, 0.70);
+  --accent-subtle: rgba(0, 117, 222, 0.12);
+  --accent-ghost: rgba(0, 117, 222, 0.06);
+  --accent-text: #0075de;
+  --secondary: #213183;
+
+  --color-primary: #0075de;
+  --color-warning: #d9730d;
+  --color-danger: #c92a2a;
+  --color-success: #2e8555;
+}
+
+:root[data-theme="light"], :root:not([data-theme="dark"]) {
+  color-scheme: light;
+  --bg-page: #f6f5f4;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f0eeec;
+  --bg-hover: #ebe9e7;
+  --bg-select: #f5f4f2;
+  --border: #e6e6e6;
+  --border-subtle: #eeeeee;
+  --border-contrast: #d1d5db;
+  --text-primary: #000000;
+  --text-secondary: #31302e;
+  --text-tertiary: #615d59;
+  --text-ghost: #a39e98;
+  --text-dim: #78716c;
+  --accent: #0075de;
+  --accent-active: #005bab;
+  --accent-text: #0075de;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-page: #191919;
+  --bg-surface: #202020;
+  --bg-subtle: #2a2a2a;
+  --bg-hover: #323232;
+  --bg-select: #383838;
+  --border: #2e2e2e;
+  --border-subtle: #252525;
+  --border-contrast: #505050;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.82);
+  --text-tertiary: rgba(255, 255, 255, 0.55);
+  --text-ghost: rgba(255, 255, 255, 0.30);
+  --text-dim: rgba(255, 255, 255, 0.50);
+  --accent: #2383e2;
+  --accent-active: #0075de;
+  --accent-muted: rgba(35, 131, 226, 0.70);
+  --accent-subtle: rgba(35, 131, 226, 0.20);
+  --accent-ghost: rgba(35, 131, 226, 0.10);
+  --accent-text: #62aef0;
+  --sticker-red-bg: rgba(224, 62, 62, 0.22);
+  --sticker-red-text: #ff8787;
+  --sticker-orange-bg: rgba(217, 115, 13, 0.22);
+  --sticker-orange-text: #ffa94d;
+  --sticker-green-bg: rgba(46, 133, 85, 0.22);
+  --sticker-green-text: #69db7c;
+  --sticker-blue-bg: rgba(0, 117, 222, 0.20);
+  --sticker-purple-bg: rgba(144, 101, 176, 0.22);
+  --sticker-purple-text: #da77f2;
+  --sticker-brown-bg: rgba(159, 107, 83, 0.22);
+  --sticker-brown-text: #d8b4a0;
+  --sticker-yellow-bg: rgba(223, 171, 1, 0.22);
+  --sticker-yellow-text: #ffd43b;
+}
+
+:root[data-contrast="high"] {
+  --border: #b0aba5;
+  --border-contrast: #000000;
+  --text-secondary: #111111;
+  --text-tertiary: #333333;
+}
+:root[data-theme="dark"][data-contrast="high"] {
+  --border: #666666;
+  --border-contrast: #ffffff;
+  --text-secondary: #ffffff;
+  --text-tertiary: #cccccc;
+}

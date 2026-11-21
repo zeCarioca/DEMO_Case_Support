@@ -1,0 +1,158 @@
+/* Clean Text VFX Animations */
+
+@keyframes cleanVfxRipple {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.95;
+    border-color: rgba(42, 157, 153, 0.9);
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+    border-color: rgba(42, 157, 153, 0);
+  }
+}
+
+@keyframes cleanVfxParticle {
+  0% {
+    transform: translate(0, 0) scale(0) rotate(0deg);
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+    transform: translate(calc(var(--px) * 0.65), calc(var(--py) * 0.65)) scale(1.3) rotate(80deg);
+  }
+  100% {
+    transform: translate(var(--px), var(--py)) scale(0) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes cleanVfxBadge {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 6px) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -6px) scale(1.08);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -14px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -24px) scale(0.85);
+  }
+}
+
+@keyframes cleanVfxSweep {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(250%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes cleanVfxGlowPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(42, 157, 153, 0);
+    border-color: var(--border);
+  }
+  25% {
+    box-shadow: 0 0 0 2px rgba(42, 157, 153, 0.55), 0 0 16px rgba(42, 157, 153, 0.35);
+    border-color: var(--sticker-teal);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(42, 157, 153, 0);
+    border-color: var(--border);
+  }
+}
+
+@keyframes cleanVfxButtonPop {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(0.92);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cleanVfxIconSpin {
+  0% {
+    transform: rotate(0deg) scale(0.85);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.clean-vfx-button-pop {
+  animation: cleanVfxButtonPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.clean-vfx-icon-spin {
+  animation: cleanVfxIconSpin 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.clean-vfx-sweep-container {
+  position: relative;
+  width: 100%;
+}
+
+.clean-vfx-sweep-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  z-index: 5;
+}
+
+.clean-vfx-sweep-beam {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(42, 157, 153, 0.12) 30%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(42, 157, 153, 0.28) 70%,
+    transparent 100%
+  );
+  animation: cleanVfxSweep 0.75s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.clean-vfx-textarea-active {
+  animation: cleanVfxGlowPulse 0.8s ease-out forwards;
+}
+
+.clean-vfx-particle-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  animation: cleanVfxParticle 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  z-index: 25;
+}
