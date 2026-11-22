@@ -109,17 +109,17 @@ export const LearnView: React.FC<LearnViewProps> = ({ onNavigateToPhase, initial
             borderRadius: 'var(--radius-full)',
             padding: '2px 8px'
           }}>
-            03. Learn Knowledge Base
+            03. Base de Conhecimento IP & Docketing
           </span>
           <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
-            Formulários & Protocolos Oficiais
+            Formulários TEAS & Protocolos USPTO
           </span>
         </div>
         <h1 style={{ fontSize: '2rem', fontWeight: 700, letterSpacing: '-0.8px', color: 'var(--text-primary)', lineHeight: 1.15 }}>
-          Formulários, Protocolos & Evidências EB-3
+          Formulários, Protocolos & Repositório de Evidências USPTO
         </h1>
         <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', marginTop: '0.35rem', maxWidth: '65ch', lineHeight: 1.5 }}>
-          Consulte as regras fundamentais, regulamentos legais (20 CFR 656), formulários oficiais do DOL/USCIS e checklists operacionais exigidos na tramitação dos casos.
+          Consulte as regras fundamentais do Lanham Act (15 U.S.C.), regulamentos do TMEP, formulários oficiais TEAS e checklists operacionais exigidos na tramitação dos casos.
         </p>
       </div>
 

@@ -6,7 +6,7 @@ export interface LearnItem {
   code: string;
   title: string;
   subtitle: string;
-  agency: 'DOL' | 'USCIS' | 'STATE_SWA' | 'INTERNAL' | 'IRS';
+  agency: 'USPTO' | 'TTAB' | 'WIPO' | 'USCO' | 'INTERNAL';
   summary: string;
   legalBasis?: string;
   responsibleRoles: string[];

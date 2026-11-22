@@ -2,211 +2,203 @@ import { LearnItem } from './types.js';
 
 export const LEARN_FORMS: LearnItem[] = [
   {
-    id: 'form-eta-9141',
+    id: 'form-teas-plus',
     category: 'FORM',
-    code: 'ETA-9141',
-    title: 'Application for Prevailing Wage Determination',
-    subtitle: 'Determinação Salarial Prévia pelo DOL (NPWC)',
-    agency: 'DOL',
-    legalBasis: '20 CFR § 656.40',
-    summary: 'Formulário eletrônico submetido ao National Prevailing Wage Center (NPWC) via portal FLAG. Estabelece o salário mínimo legal obrigatório que o empregador deve se comprometer a pagar ao trabalhador estrangeiro.',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal'],
+    code: 'TEAS Plus',
+    title: 'TEAS Plus Initial Application',
+    subtitle: 'Petição Inicial de Registro de Marca com Descrições Pré-Aprovadas',
+    agency: 'USPTO',
+    legalBasis: '37 CFR § 2.22 / Lanham Act § 1(a), § 1(b)',
+    summary: 'Formulário eletrônico oficial do USPTO para protocolo inicial de marca. Exige seleção de produtos e serviços estritamente a partir do ID Manual pré-aprovado, pagamento prévio de taxa reduzida ($250 por classe) e compromisso formal de recebimento de comunicações por e-mail.',
+    responsibleRoles: ['Docketing Specialist', 'Trademark Paralegal', 'Managing Attorney'],
     criticalRules: [
-      'Nunca selecionar um código SOC/O*NET apenas pelo menor piso salarial; a ocupação deve refletir estritamente as tarefas reais.',
-      'Requer conferência prévia e validação jurídica (Sarah Jenkins, Esq.) antes de submeter no FLAG.',
-      'A assinatura do patrocinador (sponsor) na FIA deve ser arquivada na pasta do caso.'
+      'Descrições de produtos e serviços devem ser selecionadas exclusivamente do USPTO ID Manual para manter o benefício tarifário reduzido ($250/classe).',
+      'Declaração sob base § 1(a) exige data exata do primeiro uso comercial no comércio interestadual dos EUA e anexação de espécime verificado.',
+      'Consentimento expresso obrigatório de endereço eletrônico corporativo válido para recebimento de despachos e exigências do Examining Attorney.'
     ],
     submissionChecklist: [
-      'Job description detalhada e requisitos mínimos definidos',
-      'Código SOC/O*NET e nível salarial validados',
-      'Endereço de trabalho confirmado com SunBiz e Utility Bill',
-      'Rascunho revisado pelo Case Manager e aprovado pelo Legal',
-      'Número de protocolo (P-xxx) registrado no arquivo do caso'
+      'Identificação precisa do titular (entidade corporativa e jurisdição ou pessoa física)',
+      'Desenho límpido do mark (Standard Character ou Special Form / Stylized)',
+      'Classificação Nice correspondente e itens selecionados do ID Manual',
+      'Espécime comercial em conformidade com TMEP § 904 (se base § 1a)',
+      'Assinatura eletrônica na declaração verificada por representante legal ou procurador'
     ],
-    officialUrl: 'https://flag.dol.gov/',
-    relatedPhaseId: 'node-pwd',
-    relatedPhaseName: 'Fase 02 — Prevailing Wage (ETA-9141)'
+    officialUrl: 'https://www.uspto.gov/trademarks/apply',
+    relatedPhaseId: 'node-teas-filing',
+    relatedPhaseName: 'Fase 02 — Protocolo TEAS'
   },
   {
-    id: 'form-eta-9089',
+    id: 'form-teas-standard',
     category: 'FORM',
-    code: 'ETA-9089',
-    title: 'Application for Permanent Employment Certification',
-    subtitle: 'Certificação de Trabalho Permanente no DOL',
-    agency: 'DOL',
-    legalBasis: '20 CFR § 656.17',
-    summary: 'Aplicação formal de certificação laboral demonstrando que não há trabalhadores americanos qualificados, dispostos e disponíveis para a posição após o recrutamento obrigatório.',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal'],
+    code: 'TEAS Standard',
+    title: 'TEAS Standard Application',
+    subtitle: 'Petição Inicial com Descrições Customizadas ou Prioridade Internacional',
+    agency: 'USPTO',
+    legalBasis: '37 CFR § 2.23 / Lanham Act § 1, § 44(d), § 44(e)',
+    summary: 'Formulário eletrônico flexível que permite redação personalizada de produtos e serviços (sem restrição ao vocabulário do ID Manual), bem como reivindicação de prioridade unionista estrangeira (§ 44d/44e). Taxa oficial de $350 por classe.',
+    responsibleRoles: ['Docketing Specialist', 'Managing Attorney'],
     criticalRules: [
-      'Consistência absoluta: descrição da vaga e requisitos no ETA-9089 devem coincidir 100% com o ETA-9141 e os anúncios veiculados.',
-      'A certificação PERM tem validade estrita e improrrogável de 180 dias corridos após a aprovação para protocolo do I-140.',
-      'O Appendix oficial deve conter assinaturas originais de Sarah Jenkins, Esq., do Sponsor e do Beneficiário.'
+      'Reivindicação sob Convenção de Paris (§ 44d) deve ser protocolada em até 6 meses da data do primeiro depósito estrangeiro.',
+      'Tradução juramentada para o inglês é obrigatória se o certificado de registro do país de origem estiver em idioma estrangeiro (§ 44e).',
+      'Taxa governamental é de $350 por classe Nice, sem reembolso em caso de desistência ou recusa.'
     ],
     submissionChecklist: [
-      'Compliance File completo com cópias de todos os anúncios e Job Order',
-      'Quiet Period de 30 dias após a última ação de recrutamento cumprido',
-      'Prevailing Wage ainda válida na data do protocolo',
-      'Formulário preenchido e revisado no portal FLAG',
-      'Assinaturas FIA coletadas e anexadas'
+      'Minuta de especificação customizada revisada por Attorney',
+      'Cópia autenticada do certificado de depósito ou registro estrangeiro',
+      'Declaração formal de intenção de boa-fé de uso no comércio dos EUA (Bona Fide Intent)',
+      'Comprovante de pagamento da taxa de $350 por classe'
     ],
-    officialUrl: 'https://flag.dol.gov/',
-    relatedPhaseId: 'node-eta9089',
-    relatedPhaseName: 'Fase 04 — Protocolo ETA-9089 (FLAG)'
+    officialUrl: 'https://www.uspto.gov/trademarks/apply',
+    relatedPhaseId: 'node-teas-filing',
+    relatedPhaseName: 'Fase 02 — Protocolo TEAS'
   },
   {
-    id: 'form-i-140',
+    id: 'form-teas-roa',
     category: 'FORM',
-    code: 'Form I-140',
-    title: 'Immigrant Petition for Alien Workers',
-    subtitle: 'Petição de Imigrante para Trabalhador Estrangeiro no USCIS',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 204.5 / INA § 203(b)(3)',
-    summary: 'Petição principal protocolada junto ao USCIS onde o empregador patrocina o visto de imigrante permanente para o beneficiário (EB-3 Skilled Worker, Professional ou Other Workers).',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal', 'Finance'],
+    code: 'TEAS ROA',
+    title: 'Response to Office Action',
+    subtitle: 'Manifestação a Despachos e Exigências Substantivas do Examinador',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1062(b) / TMEP § 711 / TMA 2020',
+    summary: 'Petição formal de resposta a despachos saneadores (Non-Final ou Final Office Actions) emitidos pelo Examining Attorney. Aborda defesas substantivas contra recusas sob Lanham Act § 2(d) (Likelihood of Confusion), disclaimers e substituição de espécimes rejeitados.',
+    responsibleRoles: ['Managing Attorney', 'Docketing Specialist'],
     criticalRules: [
-      'Obrigatório protocolar dentro dos 180 dias de validade da certificação PERM emitida pelo DOL.',
-      'Comprovar rigorosamente a Ability to Pay da empresa através dos Tax Returns mais recentes e W-2.',
-      'Protocolar formalmente com as vias originais assinadas e comprovação de entrega.'
+      'Prazo fatal de resposta é de estritamente 3 meses corridos a contar da data de emissão sob o Trademark Modernization Act (TMA 2020).',
+      'Prorrogação única de 30 dias pode ser solicitada mediante pagamento de taxa governamental de $125 antes do termo fatal.',
+      'A não apresentação de resposta tempestiva acarreta abandono sumário (Abandonment) irreversível do pedido de registro.'
     ],
     submissionChecklist: [
-      'Formulário I-140 e G-28 assinados em caneta preta',
-      'Certificação PERM original assinada por todas as partes',
-      'Comprovante de Ability to Pay (Income Tax Return e Utility Bill)',
-      'Cartas de experiência do beneficiário no formato padrão USCIS',
-      'Cheques de taxas solicitados à Finance (Terça/Quinta)',
-      'Cover Letter elaborada e aprovada por Sarah Jenkins, Esq.'
+      'Mapeamento de cada objeção ou exigência formulada no despacho',
+      'Memorial de defesa fático-jurídica fundamentado nos fatores de DuPont (TMEP § 1207.01)',
+      'Declaração de disclaimer ou alteração de goods/services se exigido',
+      'Espécime substituto acompanhado de declaração de uso se aplicável',
+      'Protocolo via TEAS com protocolo TSDR arquivado na pasta do caso'
     ],
-    officialUrl: 'https://www.uscis.gov/i-140',
-    relatedPhaseId: 'node-i140',
-    relatedPhaseName: 'Fase 05 — Petição I-140 (USCIS)'
+    officialUrl: 'https://www.uspto.gov/trademarks/maintain/responding-office-actions',
+    relatedPhaseId: 'node-examination',
+    relatedPhaseName: 'Fase 03 — Exame & Office Actions'
   },
   {
-    id: 'form-i-485',
+    id: 'form-teas-sou',
     category: 'FORM',
-    code: 'Form I-485',
-    title: 'Application to Register Permanent Residence or Adjust Status',
-    subtitle: 'Ajuste de Status para Concessão do Green Card',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 245 / INA § 245',
-    summary: 'Pedido final de residência permanente (Green Card) para o trabalhador estrangeiro e seus dependentes que mantêm presença física legal contínua nos Estados Unidos.',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal'],
+    code: 'TEAS SOU / Ext',
+    title: 'Statement of Use & Request for Extension',
+    subtitle: 'Declaração de Efetivo Uso ou Pedido de Prorrogação (Intent-to-Use)',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1051(d) / 37 CFR § 2.88, § 2.89',
+    summary: 'Petição protocolada após a emissão do Notice of Allowance (NOA) para pedidos baseados em intenção de uso (§ 1b). Comprova que a marca entrou em circulação comercial efetiva ou requer extensão de prazo de 6 meses para completar a comercialização.',
+    responsibleRoles: ['Docketing Specialist', 'Trademark Paralegal', 'Managing Attorney'],
     criticalRules: [
-      'A Priority Date do caso deve estar vigente na tabela oficial de Filing Dates do Visa Bulletin do Departamento de Estado.',
-      'O envelope do exame médico I-693 NÃO pode, sob nenhuma hipótese, ser aberto pela equipe ou pelo cliente.',
-      'Sem lacunas de tempo nos históricos de endereços e empregos dos últimos 5 anos.'
+      'Prazo inicial de 6 meses improrrogáveis a contar da emissão do Notice of Allowance (NOA).',
+      'Permite até 5 pedidos sucessivos de extensão de 6 meses (máximo total de 36 meses), exigindo justificativa plausível (Good Cause) a partir do segundo pedido.',
+      'O SOU deve ser acompanhado de espécime autêntico para cada classe reivindicada e taxa de $100 por classe.'
     ],
     submissionChecklist: [
-      'Formulário I-485 e Supplement J devidamente assinados',
-      'Envelope do exame I-693 LACRADO emitido por médico credenciado (Civil Surgeon)',
-      'Certidões civis com tradução juramentada (nascimento, casamento)',
-      'Formulários derivados para dependentes (cônjuge e filhos menores)',
-      'Taxas do USCIS emitidas por cheque'
+      'Datas de primeiro uso geral e primeiro uso no comércio interestadual comprovadas',
+      'Espécime de uso para cada classe Nice em conformidade com TMEP § 904',
+      'Declaração verificada do requerente quanto à veracidade do uso comercial',
+      'Comprovante de pagamento de $100/classe para SOU ou $125/classe para extensão'
     ],
-    officialUrl: 'https://www.uscis.gov/i-485',
-    relatedPhaseId: 'node-aos',
-    relatedPhaseName: 'Fase 06 — Ajuste de Status / Green Card (I-485)'
+    officialUrl: 'https://www.uspto.gov/trademarks/apply/forms-intent-use-applications',
+    relatedPhaseId: 'node-publication',
+    relatedPhaseName: 'Fase 04 — Publicação & Oposição TTAB'
   },
   {
-    id: 'form-i-765',
+    id: 'form-section-8',
     category: 'FORM',
-    code: 'Form I-765',
-    title: 'Application for Employment Authorization (EAD)',
-    subtitle: 'Autorização de Trabalho para Solicitantes de Ajuste de Status',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 274a.12(c)(9) / INA § 274A',
-    summary: 'Pedido formal de autorização de trabalho temporária (EAD) protocolado simultaneamente ou subsequente ao Formulário I-485 com base em ajuste de status pendente (categoria (c)(9)). Permite ao beneficiário principal e aos seus dependentes trabalharem legalmente nos Estados Unidos enquanto o Green Card é processado.',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal'],
+    code: 'Section 8',
+    title: 'Section 8 Declaration of Continued Use',
+    subtitle: 'Declaração Quinquenal Obrigatória de Continuidade de Uso Comercial',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1058 / 37 CFR § 2.161',
+    summary: 'Declaração juramentada obrigatória que deve ser submetida entre o 5º e o 6º ano após a concessão do registro federal, comprovando que a marca continua em uso comercial ativo em todos os produtos e serviços especificados.',
+    responsibleRoles: ['Docketing Specialist', 'Managing Attorney'],
     criticalRules: [
-      'A categoria de elegibilidade sob I-485 pendente deve ser indicada obrigatoriamente como (c)(9) no campo Part 2 do formulário.',
-      'Anexar 2 fotografias recentes padrão passaporte americano (2x2 polegadas) em fundo branco com identificação a lápis no verso.',
-      'Se protocolado separadamente do I-485, é indispensável anexar a cópia do Recibo I-797C do I-485 pendente como prova de base legal.',
-      'O protocolo do I-765 não substitui nem prorroga automaticamente vistos temporários (ex: F-1, H-1B, B-2) até a concessão efetiva do cartão EAD.'
+      'Janela legal de protocolo: exatamente entre o 5º e o 6º ano a contar da concessão do registro (período de tolerância de 6 meses com sobretaxa de $100).',
+      'A omissão no protocolo da Seção 8 resulta no cancelamento automático definitivo do registro federal no banco de dados do USPTO.',
+      'Produtos ou serviços que não estejam mais em uso comercial ativo devem ser voluntariamente deletados do registro para evitar falsidade ideológica.'
     ],
     submissionChecklist: [
-      'Formulário I-765 preenchido na versão vigente e assinado em caneta preta',
-      'Código de categoria de elegibilidade preenchido como (c)(9)',
-      '2 fotografias estilo passaporte (2x2) em saquinho transparente identificado',
-      'Cópia da página biográfica do passaporte vigente e carimbo de admissão / I-94',
-      'Cópia do I-797C Notice of Action do I-485 (se não protocolado em pacote concorrente)',
-      'Cheque de taxa nominal ao U.S. Department of Homeland Security conferido com a Finance'
+      'Auditoria de catálogo: confirmação por escrito do cliente de uso ativo em cada classe',
+      'Espécime comercial recente coletado para cada classe de registro',
+      'Exclusão formal de itens descontinuados no formulário eletrônico',
+      'Taxa oficial de $225 por classe paga via portal TEAS'
     ],
-    officialUrl: 'https://www.uscis.gov/i-765',
-    relatedPhaseId: 'node-aos',
-    relatedPhaseName: 'Fase 06 — Ajuste de Status / Green Card (I-485)'
+    officialUrl: 'https://www.uspto.gov/trademarks/maintain',
+    relatedPhaseId: 'node-post-reg',
+    relatedPhaseName: 'Fase 05 — Manutenção & Pós-Registro'
   },
   {
-    id: 'form-g-28',
+    id: 'form-section-15',
     category: 'FORM',
-    code: 'Form G-28',
-    title: 'Notice of Entry of Appearance as Attorney or Accredited Representative',
-    subtitle: 'Procuração de Representação Jurídica de Sarah Jenkins, Esq.',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 292.4',
-    summary: 'Documento legal obrigatório que autoriza Sarah Jenkins, Esq. e a Apex IP & Tech Law a representarem formalmente o requerente perante o USPTO, USCIS e DHS.',
-    responsibleRoles: ['Case Support', 'Legal'],
+    code: 'Section 15',
+    title: 'Section 15 Declaration of Incontestability',
+    subtitle: 'Declaração de Incontestabilidade do Direito de Propriedade da Marca',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1065 / 37 CFR § 2.167',
+    summary: 'Petição opcional de elevado valor estratégico que blinda o registro federal contra contestações de terceiros. Torna a marca incontestável quanto à distintividade, titularidade e validade após 5 anos ininterruptos de uso pós-registro.',
+    responsibleRoles: ['Managing Attorney'],
     criticalRules: [
-      'Devem ser preenchidos dois formulários G-28 separados: um para o Sponsor (empregador) e outro para o Beneficiário.',
-      'Exige assinatura do advogado responsável (Sarah Jenkins, Esq., NY BAR 1234567).'
+      'A marca deve estar no Principal Register e em uso contínuo por período de 5 anos consecutivos após o registro.',
+      'Não pode haver decisão final adversa à titularidade ou validade do mark, nem litígio ou processo no TTAB pendente de julgamento.',
+      'Frequentemente protocolada em petição combinada (§ 8 & § 15) no 5º ano para otimização de taxas e prazos.'
     ],
     submissionChecklist: [
-      'Dados de inscrição de Sarah Jenkins, Esq. na New York Bar conferidos',
-      'Assinatura do representante legal do empregador',
-      'Assinatura do beneficiário principal e dependentes'
+      'Certificação de ausência de litígios pendentes perante tribunais federais ou TTAB',
+      'Declaração atestando uso ininterrupto durante o período quinquenal',
+      'Pagamento da taxa oficial governamental de $200 por classe'
     ],
-    officialUrl: 'https://www.uscis.gov/g-28',
-    relatedPhaseId: 'node-i140',
-    relatedPhaseName: 'Fase 05 — Petição I-140 (USCIS)'
+    officialUrl: 'https://www.uspto.gov/trademarks/maintain',
+    relatedPhaseId: 'node-post-reg',
+    relatedPhaseName: 'Fase 05 — Manutenção & Pós-Registro'
   },
   {
-    id: 'form-i-693',
+    id: 'form-section-9',
     category: 'FORM',
-    code: 'Form I-693',
-    title: 'Report of Immigration Medical Examination and Vaccination Record',
-    subtitle: 'Exame Médico Imigratório e Registro de Vacinas',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 232 / INA § 212(a)(1)',
-    summary: 'Relatório clínico emitido por médico credenciado (Civil Surgeon) atestando que o candidato não é inadmissível aos EUA por razões de saúde pública.',
-    responsibleRoles: ['Case Support', 'Intake'],
+    code: 'Section 9',
+    title: 'Section 9 Trademark Renewal Application',
+    subtitle: 'Renovação Decenal Periódica do Registro Federal de Marca',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1059 / 37 CFR § 2.181',
+    summary: 'Petição decenal de renovação da vigência do registro federal. Protocolada conjuntamente com a Declaração da Seção 8 a cada 10 anos contados da data de registro original, estendendo a proteção por mais 10 anos sucessivos.',
+    responsibleRoles: ['Docketing Specialist', 'Managing Attorney'],
     criticalRules: [
-      'CRÍTICO: O envelope deve permanecer estritamente LACRADO com selo do médico. Se aberto, o USCIS rejeitará imediatamente.',
-      'Validade de 2 anos a partir da data em que o médico civil assinou o formulário.'
+      'Janela de protocolo: durante o último ano de cada período decenal (ex: entre os anos 9 e 10, 19 e 20).',
+      'Período de graça (Grace Period) de 6 meses concedido com multa de $100 por classe.',
+      'Garante renovação indefinida da proteção marcaria enquanto perdurar o uso comercial legítimo.'
     ],
     submissionChecklist: [
-      'Conferir se o médico é Civil Surgeon credenciado no portal do USCIS',
-      'Verificar se o envelope entregue pelo cliente está intacto e assinado no lacre',
-      'Arquivar cópia digital do relatório (se o médico forneceu via de cortesia)'
+      'Protocolo combinado Seção 8 & Seção 9 via formulário eletrônico TEAS',
+      'Espécime em vigor anexado para comprovação do uso contínuo',
+      'Recolhimento das taxas combinadas ($225 de Sec 8 + $300 de Sec 9 por classe)'
     ],
-    officialUrl: 'https://www.uscis.gov/i-693',
-    relatedPhaseId: 'node-aos',
-    relatedPhaseName: 'Fase 06 — Ajuste de Status / Green Card (I-485)'
+    officialUrl: 'https://www.uspto.gov/trademarks/maintain',
+    relatedPhaseId: 'node-post-reg',
+    relatedPhaseName: 'Fase 05 — Manutenção & Pós-Registro'
   },
   {
-    id: 'form-i-797',
+    id: 'form-pto-1595',
     category: 'FORM',
-    code: 'Form I-797',
-    title: 'Notice of Action',
-    subtitle: 'Notificação Oficial de Ação do USCIS (Recibo, Biometria, RFE e Aprovação)',
-    agency: 'USCIS',
-    legalBasis: '8 CFR § 103.2 / INA § 103',
-    summary: 'Documento oficial emitido exclusivamente pelo USCIS para comunicar o andamento, agendamentos e decisões sobre petições e aplicações (I-140, I-485, I-765). Subdivide-se em variantes fundamentais: I-797 (aprovação original em papel de segurança timbrado), I-797A (extensão/mudança de status com canhoto I-94), I-797B (aprovação sem I-94 para processo consular), I-797C (recibo de protocolo com Receipt Number, agendamento de biometria ASC ou transferência), I-797D (carta anexa a cartões EAD/Green Card) e I-797E (Request for Evidence - RFE).',
-    responsibleRoles: ['Case Support', 'Case Manager', 'Legal'],
+    code: 'PTO-1595',
+    title: 'Recordation Cover Sheet (ETAS Assignment)',
+    subtitle: 'Averbação Eletrônica de Cessão, Transferência de Titularidade ou Gravame',
+    agency: 'USPTO',
+    legalBasis: '15 U.S.C. § 1060 / 37 CFR Part 3',
+    summary: 'Formulário de averbação eletrônica perante a Assignment Recordation Branch do USPTO (portal ETAS). Registra formalmente transferências de titularidade, fusões e aquisições, alterações de denominação social e ônus ou gravames financeiros.',
+    responsibleRoles: ['Docketing Specialist', 'Corporate IP Paralegal'],
     criticalRules: [
-      'Auditoria do Receipt Number (I-797C): ao receber o recibo, conferir imediatamente o código de 13 caracteres (ex: LIN, SRC, IOE), a grafia dos nomes e a Priority Date com o PERM.',
-      'A via original de aprovação (I-797 em papel de segurança com marca d\'água) é insubstituível; digitalizar em alta resolução e arquivar o original físico em local seguro.',
-      'Agendamento de Biometria (I-797C ASC Notice): alertar o cliente no mesmo dia com a data, horário e centro ASC estipulados, instruindo o comparecimento com documento oficial e o notice impresso.',
-      'Request for Evidence (I-797E): prazos de resposta do USCIS são peremptórios e fatais; notificar o advogado responsável no mesmo dia para emissão imediata do Roadmap estratégico.',
-      'O I-797C do I-485 pendente serve como comprovação de presença legal contínua e documento base indispensável para solicitações de EAD (I-765) e Travel Document (I-131).'
+      'Deve ser averbado no prazo máximo de 3 meses da data de celebração do contrato de cessão ou antes de qualquer transferência subsequente para surtir efeito contra terceiros de boa-fé (Bona Fide Purchaser Rule).',
+      'A cessão de marcas com intenção de uso (§ 1b) antes do arquivamento do SOU é nula por lei, salvo se transferida conjuntamente com a integralidade do negócio operacional ao qual se destina.',
+      'Contrato de cessão deve obrigatoriamente incluir a transferência expressa do aviamento comercial associado (Goodwill of the Business).'
     ],
     submissionChecklist: [
-      'Digitalizar a notificação recebida em PDF de alta resolução e renomear com padrão [Data]_[Tipo_I797]_[ReceiptNumber]_[Cliente]',
-      'Conferir Receipt Number no portal USCIS Case Status Online e atualizar o painel interno',
-      'Verificar integridade dos dados cadastrais: nome completo, data de nascimento, endereço e categoria (EB-3)',
-      'Se agendamento de biometria (ASC), encaminhar notificação ao cliente com instruções claras de comparecimento',
-      'Se aprovação (I-797 / I-797B), anexar ao arquivo do caso, atualizar marcos da esteira e acionar a próxima fase (AOS ou Consular)',
-      'Se RFE (I-797E), registrar o prazo limite no calendário jurídico e encaminhar imediatamente para elaboração do Roadmap'
+      'Contrato de cessão (Assignment Agreement) assinado pelo cedente (Assignor) e cessionário (Assignee)',
+      'Cláusula expressa de transferência de Goodwill',
+      'Identificação precisa de todos os números de registro ou número de processo serial afetados',
+      'Taxa de averbação recolhida ($40 para o primeiro mark, $25 para adicionais)'
     ],
-    officialUrl: 'https://www.uscis.gov/forms/all-forms/form-i-797-types-and-functions',
-    relatedPhaseId: 'node-i140',
-    relatedPhaseName: 'Fase 05 — Petição I-140 (USCIS)'
+    officialUrl: 'https://etas.uspto.gov/',
+    relatedPhaseId: 'node-post-reg',
+    relatedPhaseName: 'Fase 05 — Manutenção & Pós-Registro'
   }
 ];
